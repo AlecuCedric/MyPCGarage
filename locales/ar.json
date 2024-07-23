@@ -528,5 +528,334 @@
         "breadcrumbs_submitted": "مُقَدَّم"
       }
     }
+  },
+  "customer_accounts": {
+    "orders": {
+      "buy_again_accessibility_label": "تسوق مرة أخرى للطلب {{orderId}}",
+      "manage": "يدير",
+      "manage_accessiblity_label": "إدارة الطلب {{orderId}}",
+      "group_title_label": "جزء من: {{groupTitle}}",
+      "havent_received_your_delivery": "هل لم تستلم التسليم؟",
+      "didnt_pick_up_order": "هل لم تلتقط الطلب؟",
+      "let_us_know": "يعلمنا",
+      "contact_us": "اتصل بنا.",
+      "if_you_didnt_receive_this": "إذا لم تكن قد تلقت",
+      "if_not_received": {
+        "one": "إذا لم تكن قد تلقت ذلك،",
+        "other": "إذا لم تكن قد تلقت لهم،",
+        "few": "إذا لم تكن قد تلقت لهم،"
+      }
+    },
+    "order_details": {
+      "addresses_section_title": "الفواتير والشحن",
+      "billing_address": "عنوان وصول الفواتير",
+      "card_ending_with": "ينتهي بـ {{lastDigits}}",
+      "hide_items": "إخفاء المقالات",
+      "loading": "جارٍ تحميل تفاصيل الطلب",
+      "loading_finished_accessibility_message": "تم تحميل تفاصيل الطلب",
+      "payment": {
+        "status_in_review": "الدفع مستحق بعد المراجعة",
+        "status_unpaid": "الدفع مستحق في {{date}}",
+        "title": "الدفع",
+        "card_payment_details": "ينتهي بـ {{lastDigits}} - {{formattedTransactionAmount}}",
+        "shop_pay_installments": {
+          "paid_in_installments": "يتم الدفع باستخدام Rate Shop Pay",
+          "view_schedule": "انظر الجدول الزمني"
+        },
+        "gift_card_payment_details": "ينتهي بـ {{lastDigits}} - {{formattedTransactionAmount}}",
+        "manual_payment_methods": {
+          "money_order": "أمر الدفع - {{formattedTransactionAmount}}",
+          "cash_on_delivery": "الدفع عند الاستلام - {{formattedTransactionAmount}}",
+          "bank_deposit": "الإيداع البنكي - {{formattedTransactionAmount}}",
+          "manual": "دليل - {{formattedTransactionAmount}}"
+        },
+        "store_credit_payment_details": "رصيد المتجر - {{formattedTransactionAmount}}",
+        "transactions": {
+          "show_all": "عرض الكل",
+          "show_less": "عرض أقل"
+        }
+      },
+      "shipping": {
+        "address": "عنوان الشحن",
+        "address_map_marker": "عنوان الشحن",
+        "method": "طريقة الشحن",
+        "summary": "ينقل",
+        "free": "شحن مجاني",
+        "free_shipping_discount": "ًالشحن مجانا",
+        "one_time": "شحنة واحدة",
+        "subscription": "الشحن على أساس الاشتراك"
+      },
+      "show_items": "عرض المقالات",
+      "subtitle": "تم تأكيد {{date}}",
+      "subtotal": "المجموع الفرعي",
+      "summary_list_title_accessibility_label": "تفاصيل الطلب",
+      "summary_title": "ملخص الطلب",
+      "summary_totals_title_accessibility_label": "الطلب الكلي",
+      "taxes": "الضرائب",
+      "title": "الأمر {{name}}",
+      "total": "المجموع",
+      "unit_price": "{{price}} \/pc.",
+      "location": "موقع",
+      "not_applicable": "غير قابل للتطبيق",
+      "fully_refunded_label": "ردها",
+      "partially_refunded_label": "المبلغ المسترد جزئيا",
+      "refunded_amount": "ردها",
+      "discount": "تخفيض",
+      "no_data": "حر",
+      "pagination": {
+        "load_more": "تحميل المزيد",
+        "load_more_accessibility_label": "تحميل المزيد من العناصر",
+        "loading_accessibility_label": "تحميل المقالات"
+      },
+      "returns": {
+        "expand_events_label": "اظهر التفاصيل",
+        "hide_events_label": "أخف التفاصيل",
+        "print_shipping_label": "اطبع ملصق الشحن",
+        "tracking_number": "عدد تتبع:",
+        "return_and_refund_modal_header": "سياسة الاسترجاع",
+        "ineligible_return_message": "لا توجد عناصر في هذا الطلب مؤهلة للإرجاع.",
+        "ineligible_return_message_when_returned": "لا توجد عناصر إضافية في هذا الطلب مؤهلة للإرجاع."
+      },
+      "request_return_failed": "كان هناك مشكلة في معالجة طلبك. حاول ثانية.",
+      "mobile_summary_toggle_button": {
+        "open": "عرض ملخص الطلب",
+        "closed": "إخفاء ملخص الطلب"
+      },
+      "shipment_timeline": {
+        "expand_events_label": "اظهر التفاصيل",
+        "expand_events_accessibility_label": "يعرض تفاصيل شحن الطلب",
+        "hide_events_label": "أخف التفاصيل",
+        "hide_events_accessibility_label": "إخفاء تفاصيل شحن الطلب"
+      },
+      "show_order_summary": "عرض ملخص الطلب",
+      "hide_order_summary": "إخفاء ملخص الطلب",
+      "company": "شركة",
+      "no_data_provided_accessibility_label": "{{fieldName}} فارغ",
+      "marketing_section_title": "الأخبار والعروض",
+      "marketing_description": "سوف تتلقى رسائل البريد الإلكتروني التسويقية. يمكنك إلغاء الاشتراك في أي وقت.",
+      "marketing_checkbox_label": "أريد تلقي رسائل البريد الإلكتروني مع الأخبار والعروض",
+      "marketing_checkmark_label": "أنت مشترك لتلقي الأخبار والعروض عبر البريد الإلكتروني",
+      "image_gallery": {
+        "product_name_and_quantity": "المنتج: {{productName}} ، الكمية: {{quantity}}",
+        "next": "عرض المقالات التالية",
+        "previous": "عرض المقالات السابقة"
+      },
+      "shop_order_tracking": {
+        "download_shop_to_track": "قم بتنزيل المتجر لتتبع الحزمة الخاصة بك",
+        "track_order_with_shop": "تتبع طلبك من المتجر",
+        "title_header": "مسح مع هاتفك",
+        "real_time_delivery_updates": "بعد شحن طلبك، سيرسل لك المتجر تحديثات في الوقت الفعلي حول التسليم."
+      },
+      "shop_pay": {
+        "order_completed_with": "اكتمل الطلب مع",
+        "learn_more": "اكتشف المزيد"
+      },
+      "edit_summary": {
+        "added": "تمت الإضافة",
+        "added_with_quantity": "تمت الإضافة: {{quantity}}",
+        "removed": "مستبعد",
+        "removed_with_quantity": "تمت الإزالة: {{quantity}}",
+        "updated_at": "تم تحديث طلبك بتاريخ {{date}}",
+        "returned": "عاد",
+        "returned_with_quantities": "تم إرجاع: {{delta}} من {{total}}",
+        "removed_with_quantities": "تمت الإزالة: {{delta}} من {{total}}",
+        "return_line_item_removed": "تمت إزالته من العودة"
+      }
+    },
+    "payment_methods": {
+      "payment_delete": {
+        "warning_message_without_replacement": {
+          "with_subscriptions": "سيؤثر حذف طريقة الدفع هذه على المدفوعات المصرح بها مسبقًا. أضف طريقة دفع بديلة لمواصلة تلقي الطلبات المستقبلية."
+        }
+      },
+      "edit_payment_method": {
+        "title": "تعديل طريقة الدفع",
+        "save_payment_method_button": "يحفظ",
+        "cancel_edit_payment_method_button": "يلغي",
+        "payment_method_updated_toast": "تم تحديث طريقة الدفع",
+        "billing_address": "عنوان وصول الفواتير",
+        "billing_address_add_new": "أضف بطاقة جديدة",
+        "billing_address_choose_from_list": "اختر من القائمة",
+        "future_purchases_notice": "سيتم حفظ طريقة الدفع هذه لعمليات الشراء المستقبلية.",
+        "generic_error": "حدثت مشكلة أثناء التحديث. حاول ثانية."
+      },
+      "card_fields": {
+        "card_number_label": "رقم البطاقة",
+        "card_number_placeholder": "رقم البطاقة",
+        "name_on_card_label": "الاسم الموجود على البطاقة",
+        "name_on_card_placeholder": "الاسم الموجود على البطاقة",
+        "card_expiry_label": "تاريخ انتهاء الصلاحية (شهر\/سنة)",
+        "card_expiry_placeholder": "تاريخ انتهاء الصلاحية (شهر\/سنة)",
+        "card_verification_value_label": "رمز الحماية",
+        "card_verification_value_placeholder": "رمز الحماية",
+        "card_start_label": "تاريخ الإصدار (شهر\/سنة)",
+        "card_start_placeholder": "تاريخ الإصدار (شهر\/سنة)",
+        "tooltip": {
+          "tooltip_accessibility_label": "معلومات اكثر",
+          "card_verification_value_explanation_amex": "رمز الحماية المكون من 4 أرقام الموجود على وجه البطاقة",
+          "card_verification_value_explanation_other": "رمز الحماية المكون من 3 أرقام الموجود على ظهر البطاقة",
+          "card_verification_value_explanation": "عادةً ما يوجد رمز الأمان المكون من 3 أرقام على ظهر البطاقة. تحتوي بطاقات أمريكان إكسبريس على رمز مكون من 4 أرقام موجود في الجهة الأمامية.",
+          "card_security_notice": "جميع المعاملات آمنة ومشفرة."
+        },
+        "field_errors": {
+          "credit_card_name_invalid": "أدخل اسمك تمامًا كما هو مكتوب على البطاقة",
+          "credit_card_number_invalid": "الرجاء إدخال رقم بطاقة سارية المفعول",
+          "credit_card_expiry_invalid": "أدخل تاريخ انتهاء صالح للبطاقة",
+          "credit_card_verification_value_blank": "أدخل رمز CVV أو رمز الحماية الموجود على البطاقة"
+        }
+      },
+      "add_payment_method": {
+        "title": "إضافة طريقة دفع",
+        "payment_method_added_confirmation": "تمت إضافة طريقة الدفع",
+        "billing_address": {
+          "title": "عنوان وصول الفواتير",
+          "add_billing_address_button": "أضف بطاقة جديدة",
+          "add_billing_address_button_accessibility_label": "أضف عنوان إرسال فواتير جديد",
+          "choose_billing_address_from_list_button": "اختر من القائمة",
+          "choose_billing_address_from_list_button_accessibility_label": "اختر عنوان إرسال الفواتير من القائمة",
+          "missing_billing_address_error_message": "يحدد عنوان إرسال الفواتير.",
+          "default_checkbox": "تعيين كطريقة الدفع الافتراضية"
+        }
+      },
+      "expires_soon": "تنتهي صلاحية هذه البطاقة قريبًا",
+      "expired": "انتهت صلاحية هذه البطاقة",
+      "card_update_consent": "سيتم حفظ طريقة الدفع هذه لعمليات الشراء المستقبلية.",
+      "digital_wallet_title": "المحفظة الرقمية",
+      "credit_or_debit_card_title": "بطاقة الائتمان أو الخصم",
+      "google_pay": {
+        "errors": {
+          "generic": "حدثت مشكلة في Google Pay. حاول مرة أخرى أو استخدم طريقة دفع أخرى.",
+          "missing_billing_address": "يتطلب Google Pay عنوان إرسال الفواتير. أضف واحدًا إلى حسابك."
+        },
+        "loading": "جارٍ تحميل Google Pay"
+      },
+      "apple_pay": {
+        "loading": "جارٍ تحميل خدمة Apple Pay",
+        "errors": {
+          "generic": "حدثت مشكلة في Apple Pay. حاول مرة أخرى أو استخدم طريقة دفع أخرى.",
+          "not_available": "خدمة Apple Pay غير متوفرة على هذا الجهاز.",
+          "missing_billing_address": "يتطلب Apple Pay عنوان إرسال الفواتير. أضف واحدًا إلى حسابك."
+        }
+      },
+      "add_payment_method_banner": "أضف طريقة دفع لإكمال الطلبات بشكل أسرع أو الحصول على خدمات معتمدة مسبقًا",
+      "edit_payment_method_button_accessibility_label": "تعديل {{paymentMethodName}} الذي ينتهي بـ {{lastDigits}}",
+      "edit_payment_method_brand_button_accessibility_label": "تعديل العنوان {{paymentMethodName}}",
+      "expiration_warning_button_accessibility_label": "إظهار تحذير انتهاء الصلاحية لـ {{paymentMethodName}} المنتهي بـ {{lastDigits}}",
+      "no_payment_methods_banner": "لم تتم إضافة أي طريقة دفع",
+      "default": "ضمني",
+      "store_credit": {
+        "label": "مخزن اعتمادات",
+        "accesibility_label": "رصيد المتجر - {{formattedBalance}}",
+        "expirable_amounts_button": "انظر المبالغ التي تنتهي صلاحيتها",
+        "details_modal": {
+          "title": "انتهاء صلاحية رصيد المتجر",
+          "balance_label": "خاصرة",
+          "expiration_date_label": "تاريخ انتهاء الصلاحية",
+          "amount_label": "المبلغ",
+          "expirable_balance_info": "ستنتهي صلاحية جزء من رصيدك في وقت لاحق",
+          "expirable_amount_label": "انتهاء المبلغ الإجمالي",
+          "expirable_amounts_info": "يتم تطبيق المبالغ التي تنتهي صلاحيتها مسبقًا أولاً عند الخروج",
+          "expired_amounts_button": "انظر المبالغ منتهية الصلاحية",
+          "pagination": {
+            "load_more_label": "تحميل المزيد",
+            "load_more_accessibility_label": "قم بتعبئة مبالغ متعددة منتهية الصلاحية"
+          },
+          "date_label": "تاريخ",
+          "expirable_amounts_button": "اظهرها"
+        },
+        "expirable_amounts_label": "المبالغ المنتهية"
+      }
+    },
+    "payment_method_brands": {
+      "visa": "تأشيرة",
+      "mastercard": "بطاقة ماستر بطاقة ائتمان",
+      "shoppay": "متجر الدفع",
+      "applepay": "أبل الدفع",
+      "googlepay": "جوجل الدفع",
+      "paypal": "باي بال",
+      "americanexpress": "أمريكان اكسبريس",
+      "discover": "يكتشف",
+      "dinersclub": "نادي داينرز",
+      "jcb": "جي سي بي",
+      "elo": "مرحبًا",
+      "visaelectron": "فيزا إلكترون",
+      "maestro": "فنان قائد فرقة موسيقية",
+      "forbrugsforeningen": "فوربروجسفورينينجن",
+      "dankort": "شكرًا لك",
+      "hipercard": "هايبركارد",
+      "unionpay": "يونيون باي",
+      "laser": "الليزر",
+      "storecredit": "مخزن اعتمادات"
+    },
+    "enable_javascript": "لعرض حسابك، قم بتمكين JavaScript في إعدادات المتصفح الخاص بك أو قم بتسجيل الدخول باستخدام متصفح آخر.",
+    "ui_components": {
+      "closeNotification": "يشنق",
+      "expandNotification": "شاهد المزيد",
+      "closeModal": "يشنق",
+      "submit": "يرسل",
+      "processing": "يعالج...",
+      "increase": "زيادة {{type}}",
+      "decrease": "تقليل {{type}}",
+      "minimumReached": "تم الوصول إلى الحد الأدنى البالغ {{value}}"
+    }
+  },
+  "customer": {
+    "order": {
+      "date_html": "تم النشر في {{ date }}",
+      "cancelled_html": "تم إلغاء الطلب بتاريخ {{ date }}",
+      "cancelled_reason": "السبب: {{ reason }}",
+      "billing_address": "عنوان وصول الفواتير",
+      "payment_status": "حالة السداد",
+      "shipping_address": "عنوان الشحن",
+      "fulfillment_status": "حالة الطلب",
+      "discount": "تخفيض",
+      "shipping": "إرسال",
+      "tax": "الضرائب",
+      "product": "منتج",
+      "sku": "رمز التخزين التعريفي",
+      "price": "سعر",
+      "quantity": "كمية",
+      "total": "المجموع",
+      "fulfilled_at_html": "تم تكريم الطلب بتاريخ {{ date }}",
+      "track_shipment": "تتبع الشحنة",
+      "tracking_url": "رابط التتبع",
+      "tracking_company": "خدمة التوصيل",
+      "tracking_number": "عدد تتبع",
+      "subtotal": "المجموع الفرعي",
+      "total_duties": "واجب",
+      "total_refunded": "ردها"
+    }
+  },
+  "gift_cards": {
+    "issued": {
+      "title": "هذا هو رصيد بطاقة الهدايا {{ value }} لـ {{ shop }} !",
+      "subtext": "بطاقة الهدية الخاصة بك",
+      "gift_card_code": "رمز بطاقة الهدايا",
+      "shop_link": "قم بزيارة المتجر الإلكتروني",
+      "add_to_apple_wallet": "أضف إلى محفظة أبل",
+      "qr_image_alt": "رمز الاستجابة السريعة – قم بمسحه ضوئيًا لاسترداد بطاقة الهدايا",
+      "copy_code": "انسخ رمز بطاقة الهدايا",
+      "expired": "منتهي الصلاحية",
+      "copy_code_success": "تم نسخ الرمز بنجاح",
+      "how_to_use_gift_card": "استخدم رمز بطاقة الهدايا عبر الإنترنت أو رمز الاستجابة السريعة في المتجر",
+      "expiration_date": "تنتهي في {{ expires_on }}"
+    }
+  },
+  "recipient": {
+    "form": {
+      "checkbox": "أريد أن أرسل هذا كهدية",
+      "email_label": "البريد الألكتروني للمتلقي",
+      "email": "عنوان البريد الإلكتروني",
+      "name_label": "اسم المستلم (اختياري)",
+      "name": "اسم",
+      "message_label": "الرسالة (اختياري)",
+      "message": "رسالة",
+      "max_characters": "الحد الأقصى {{ max_chars }} (من) الأحرف",
+      "email_label_optional_for_no_js_behavior": "عنوان البريد الإلكتروني للمستلم (اختياري)",
+      "send_on": "يوم.ش.س.س.س",
+      "send_on_label": "إرسال إلى (اختياري)",
+      "expanded": "تم تمديد النموذج الخاص بمستلم بطاقة الهدايا",
+      "collapsed": "نموذج مستلم بطاقة الهدايا مقيد"
+    }
   }
 }
