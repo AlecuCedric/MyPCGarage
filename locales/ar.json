@@ -747,7 +747,11 @@
         "company_location_title": "موقع",
         "thank_you_title_review": "لقد تم إرسال طلبك للمراجعة",
         "thank_you_confirmed_order_with_draft": "سنخبرك إذا كنا بحاجة إلى مزيد من المعلومات أو عندما يتم تأكيد طلبك.",
-        "breadcrumbs_submitted": "مُقَدَّم"
+        "breadcrumbs_submitted": "مُقَدَّم",
+        "thank_you_payments_app_pending_payment_description_buyer_action_required_with_email_pick_up": "بعد إتمام عملية الدفع، ستتلقى رسالة تأكيد بالبريد الإلكتروني تحتوي على رقم الطلب.",
+        "thank_you_payments_app_pending_payment_description_buyer_action_required_with_phone": "بعد إتمام عملية الدفع، ستصلك رسالة نصية تأكيدية تحتوي على رقم الطلب.",
+        "thank_you_payments_app_pending_payment_description_buyer_action_required_with_phone_payment": "بعد إتمام عملية الدفع، ستصلك رسالة نصية تأكيدية تحتوي على رقم الطلب.",
+        "thank_you_payments_app_pending_payment_description_buyer_action_required_with_phone_pick_up": "بعد إتمام عملية الدفع، ستصلك رسالة نصية تأكيدية تحتوي على رقم الطلب."
       },
       "pickup_point": {
         "geolocation": {
@@ -1086,7 +1090,8 @@
         "recurring_total_intervals": {
           "week": {
             "other": "%{count} أسبوع",
-            "few": "%{count} أسبوع"
+            "few": "%{count} أسبوع",
+            "one": "أسبوع"
           },
           "month": {
             "one": "شهر",
@@ -1097,6 +1102,11 @@
             "one": "سنة",
             "other": "%{count} سنة",
             "few": "%{count} سنة"
+          },
+          "day": {
+            "one": "يوم",
+            "other": "%{count} يوم",
+            "few": "%{count} يوم"
           }
         },
         "recurring_totals_with_initial_order_shipping_discount": "الدفعة الأولى هي %{total_price_with_discount}، ثم %{recurring_total}",
@@ -1106,6 +1116,15 @@
             "other": "، فسيكون هناك %{count} دفعة بقيمة %{total_price}",
             "few": "، فسيكون هناك %{count} دفعة بقيمة %{total_price}"
           }
+        },
+        "recurring_totals": "%{total_price} كل %{interval}",
+        "recurring_totals_with_policies": {
+          "first_cycles": {
+            "one": "الدفعة الأولى هي %{total_price}",
+            "other": "أول %{count} دفعة هي %{total_price} لكل منها",
+            "few": "أول %{count} دفعة هي %{total_price} لكل منها"
+          },
+          "following_cycles": "، فسوف تدفع %{total_price} كل %{interval}"
         }
       },
       "customer_payment_methods": {
@@ -1210,6 +1229,133 @@
       "session_errors": {
         "session_not_unique": "حدثت مشكلة أثناء معالجة طلبك. قم بتحديث هذه الصفحة للعودة إلى المتجر.",
         "session_already_finished": "لقد تم بالفعل إرسال هذا الطلب. يمكنك العودة إلى المتجر لبدء طلب جديد."
+      },
+      "review": {
+        "title": "مراجعة",
+        "review_title": "المراجعة والدفع",
+        "checkout_as_guest": "إكمال الطلب كضيف",
+        "blocks": {
+          "billing_address_title": "الفواتير",
+          "shipping_address_title": "سافر على متن سفينة لِـ",
+          "shipping_method_title": "طريقة الشحن",
+          "payment_method_title": "طريقة الدفع او السداد",
+          "change_link_label": "يعدل",
+          "change_contact_method_link_label": "تغيير معلومات الاتصال",
+          "change_billing_address_link_label": "تغيير عنوان إرسال الفواتير",
+          "change_shipping_address_link_label": "تغيير عنوان الشحن",
+          "change_shipping_method_link_label": "تغيير طريقة الشحن",
+          "change_payment_method_link_label": "قم بتغيير آلية الدفع",
+          "pick_up_in_store_shipping_method_html": "الاستلام من المتجر · %{location_name}",
+          "purchase_order_number_title": "رقم طلب الشراء",
+          "change_purchase_order_number_label": "تغيير رقم أمر الشراء",
+          "change_delivery_method_link_label": "تغيير طريقة التسليم",
+          "no_address": "(لا يوجد عنوان)",
+          "no_purchase_order_number": "(أمر الشراء بدون رقم)",
+          "due_after_order_reviewed_html": "مستحق بعد مراجعة الطلب",
+          "review_title_free_order": "قم بمراجعة وإكمال طلبك",
+          "payment_method_saved_company_location": "احفظ البطاقة لهذا الموقع"
+        },
+        "block_title": "قم بمراجعة معلوماتك",
+        "checkout_a_different_way": "أكمل الطلب بطريقة أخرى"
+      },
+      "marketing": {
+        "accept_marketing_checkbox_label": "أريد تلقي رسائل البريد الإلكتروني مع الأخبار والعروض",
+        "unsubscribe": {
+          "title": "لقد قمت بإلغاء الاشتراك",
+          "description": "لن تتلقى بعد الآن تحديثات تسويقية منا."
+        },
+        "accept_sms_checkbox_label": "أريد تلقي رسائل نصية تحتوي على الأخبار والعروض",
+        "sms": {
+          "disclaimer": {
+            "privacy_policy": "سياسة الخصوصية",
+            "terms_of_service": "شروط الاستخدام",
+            "description_html": "إذا قمت بالتسجيل عن طريق الرسائل النصية، فإنك توافق على تلقي رسائل تسويقية آلية منتظمة، بما في ذلك تذكيرات سلة التسوق، على رقم الهاتف المقدم. الموافقة ليست شرطا لإجراء عمليات الشراء. قم بالرد بـ STOP لإلغاء الاشتراك. الرد بـ HELP للحصول على المساعدة. يختلف تردد الرسالة. قد يتم تطبيق رسوم البيانات والرسائل. عرض %{privacy_policy_link} و%{terms_of_service_link}.",
+            "description_transactional_html": "قد تتلقى رسائل نصية تتعلق بتأكيد الطلب وتحديثات التسليم. قم بالرد بـ STOP لإلغاء الاشتراك. الرد بـ HELP للحصول على المساعدة. يختلف تردد الرسالة. قد يتم تطبيق رسوم البيانات والرسائل. عرض %{privacy_policy_modal_link} و%{terms_of_service_modal_link}."
+          },
+          "mobile_phone_number": "رقم الهاتف الجوال",
+          "get_offers_by_text": "تلقي العروض عن طريق رسالة نصية"
+        },
+        "post_accept_marketing_checkbox_label": "أنت مشترك لتلقي الأخبار والعروض عبر البريد الإلكتروني",
+        "pending_accept_marketing_checkbox_label": "تحقق من حساب بريدك الإلكتروني لتأكيد اشتراكك في الأخبار والعروض",
+        "accept_shop_pay_marketing_checkbox_label": "أريد التسجيل لتلقي الأخبار والعروض من هذا المتجر",
+        "disclaimer": {
+          "privacy_policy": "سياسة الخصوصية",
+          "terms_of_service": "شروط الاستخدام"
+        }
+      },
+      "shop_policies": {
+        "refund_policy": "سياسة الاسترجاع",
+        "privacy_policy": "سياسة الخصوصية",
+        "terms_of_service": "شروط الاستخدام",
+        "legal_notice": "إشعار قانوني",
+        "shipping_policy": "سياسة الشحن",
+        "terms_of_sale": "شروط البيع",
+        "subscription_policy": "سياسة الاشتراك",
+        "purchase_options_policy": "سياسة خيارات الشراء",
+        "contact_information": "معلومات الاتصال",
+        "purchase_options_cancellation_policy": "سياسة الإلغاء"
+      },
+      "notifications": {
+        "title": "إشعارات"
+      },
+      "order_payment_collection": {
+        "custom_line_item_description": "مبلغ الدفع للطلب %{order_name}",
+        "additional_payment_requested": "يلزم دفع %{total_outstanding}.",
+        "checkout_review_and_pay": "لقد تم تحديث طلبك، %{order_name}. راجع هذه التغييرات، ثم ادفع لتأكيد طلبك.",
+        "order_updated_on": "تم تحديث طلبك بتاريخ %{last_edited_at}.",
+        "order_review_and_pay": "لقد تم تحديث طلبك. قم بالمراجعة والدفع لتأكيد طلبك.",
+        "pay_now": "ادفع الآن",
+        "changes_summary": {
+          "added": {
+            "one": "تمت الإضافة",
+            "other": "تمت الإضافة: %{count}",
+            "few": "تمت الإضافة: %{count}"
+          },
+          "removed": "مستبعد",
+          "subtracted": "العناصر التي تمت إزالتها: %{count}",
+          "returned": "تم إرجاعها: %{count}",
+          "return_line_item_removed": "تمت الإزالة من العودة: %{count}"
+        }
+      },
+      "tips": {
+        "title": "أضف نصيحة",
+        "description": "ادعم الفريق في %{shop_name}",
+        "presets_description": "حدد نسبة الإكرامية",
+        "custom_label": "نصيحة مخصصة",
+        "add_tip": "أضف نصيحة",
+        "update_tip": "تحديث النصيحة",
+        "message": "شكرا لك، ونحن نقدر هذه اللفتة.",
+        "preset_label": "%{percent_type}%",
+        "no_tip_label": "حر"
+      },
+      "open_graph_meta_tag": {
+        "title_with_products": {
+          "zero": "شراء %{product_name}",
+          "one": "قم بشراء %{product_name} و%{count} من العناصر الإضافية",
+          "other": "قم بشراء %{product_name} و%{count} من العناصر الإضافية",
+          "few": "قم بشراء %{product_name} و%{count} من العناصر الإضافية"
+        }
+      },
+      "localized_fields": {
+        "additional_information": {
+          "title": "معلومات إضافية"
+        }
+      },
+      "post_purchase": {
+        "page_title": "بعد الشراء",
+        "title": "بعد الشراء",
+        "escape_confirmation": "لقد دفعت ثمن الطلب.",
+        "escape_action": "عرض معلومات الطلب ›",
+        "components": {
+          "close": "يشنق",
+          "expand": "شاهد المزيد",
+          "processing": "يعالج...",
+          "submit": "يرسل"
+        }
+      },
+      "change_country": {
+        "cart_updated_based_on_country": "تم تحديث سلة التسوق الخاصة بك بناءً على بلد الشحن الخاص بك.",
+        "cart_and_currency_updated_based_on_country": "يتم تحديث سلة التسوق والعملة بناءً على بلد الشحن."
       }
     }
   },
