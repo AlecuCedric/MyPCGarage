@@ -1827,7 +1827,147 @@
       "load_video": "تحميل مقطع فيديو: {{ description }}"
     },
     "slideshow": {
-      "load_slide": "قم بتحميل الشريحة"
+      "load_slide": "قم بتحميل الشريحة",
+      "previous_slideshow": "الشريحة السابقة",
+      "next_slideshow": "الشريحة التالية",
+      "pause_slideshow": "إيقاف عرض الشرائح مؤقتًا",
+      "play_slideshow": "قم بتشغيل عرض الشرائح",
+      "carousel": "دائري",
+      "slide": "الانزلاق"
+    },
+    "page": {
+      "title": "عنوان الصفحة"
+    },
+    "announcements": {
+      "previous_announcement": "الإعلان السابق",
+      "next_announcement": "الإعلان القادم",
+      "carousel": "دائري",
+      "announcement": "إعلان",
+      "announcement_bar": "شريط الإعلانات"
+    },
+    "quick_order_list": {
+      "product_total": "المجموع الفرعي للمنتج",
+      "view_cart": "شاهد السلة",
+      "each": "{{ money }} \/pc.",
+      "product": "منتج",
+      "variant": "بديل",
+      "variant_total": "البديل الإجمالي",
+      "items_added": {
+        "one": "تمت إضافة عنصر {{ quantity }}",
+        "other": "تمت إضافة {{ quantity }} من العناصر",
+        "few": "تمت إضافة {{ quantity }} من العناصر"
+      },
+      "items_removed": {
+        "one": "تمت إزالة السلعة {{ quantity }}",
+        "other": "تمت إزالة {{ quantity }} من العناصر",
+        "few": "تمت إزالة {{ quantity }} من العناصر"
+      },
+      "product_variants": "متغيرات المنتج",
+      "total_items": "إجمالي العناصر",
+      "remove_all_items_confirmation": "هل تريد إزالة كافة العناصر {{ quantity }} من سلة التسوق؟",
+      "remove_all": "إزالة كل شيء",
+      "cancel": "يلغي",
+      "remove_all_single_item_confirmation": "هل ترغب في إزالة عنصر واحد من سلة التسوق؟",
+      "min_error": "بالنسبة لهذا العنصر، الحد الأدنى للقيمة هو {{ min }}",
+      "max_error": "الحد الأقصى للقيمة لهذا العنصر هو {{ max }}",
+      "step_error": "لا يمكنك إدخال هذا العنصر إلا بزيادات قدرها {{ step }}"
+    }
+  },
+  "general": {
+    "password_page": {
+      "login_form_heading": "الدخول إلى المتجر باستخدام كلمة المرور:",
+      "login_password_button": "قم بتسجيل الدخول باستخدام كلمة المرور الخاصة بك",
+      "login_form_password_label": "كلمة المرور",
+      "login_form_password_placeholder": "كلمة السر خاصتك",
+      "login_form_error": "كلمة سر خاطئة!",
+      "login_form_submit": "يزور",
+      "admin_link_html": "هل أنت مالك المتجر؟ <a href=\"\/admin\" class=\"link underlined-link\">تسجيل الدخول هنا<\/a>",
+      "powered_by_shopify_html": "سيكون هذا المتجر على منصة {{ shopify }}"
+    },
+    "social": {
+      "alt_text": {
+        "share_on_facebook": "أنشرها على الفيسبوك",
+        "share_on_twitter": "شارك على X",
+        "share_on_pinterest": "نشر دبوس على موقع Pinterest"
+      },
+      "links": {
+        "twitter": "اكس (تويتر)",
+        "facebook": "فيسبوك",
+        "pinterest": "بينتريست",
+        "instagram": "انستغرام",
+        "tumblr": "نعرفكم",
+        "snapchat": "سناب شات",
+        "youtube": "موقع YouTube",
+        "vimeo": "فيميو",
+        "tiktok": "تيك توك"
+      }
+    },
+    "continue_shopping": "مواصلة التسوق",
+    "pagination": {
+      "label": "ترقيم الصفحات",
+      "page": "{{ number }}",
+      "next": "الصفحة التالية",
+      "previous": "الصفحة السابقة"
+    },
+    "search": {
+      "search": "البحث عن",
+      "reset": "امسح مصطلح البحث"
+    },
+    "cart": {
+      "view": "عرض سلة التسوق ( {{ count }} )",
+      "item_added": "تمت إضافة العنصر إلى سلة التسوق",
+      "view_empty_cart": "شاهد السلة"
+    },
+    "share": {
+      "copy_to_clipboard": "انسخ الرابط",
+      "share_url": "وصلة",
+      "success_message": "تم نسخ الرابط إلى الحافظة",
+      "close": "إغلاق المشاركة"
+    },
+    "slider": {
+      "of": "من",
+      "next_slide": "اسحب لليمين",
+      "previous_slide": "اسحب لليسار",
+      "name": "مقشدة"
+    }
+  },
+  "newsletter": {
+    "label": "بريد إلكتروني",
+    "success": "شكرا لك على الاشتراك",
+    "button_label": "يشترك"
+  },
+  "accessibility": {
+    "skip_to_text": "تخطى الى المحتوى",
+    "close": "أغلقه",
+    "unit_price_separator": "على",
+    "vendor": "تاجر:",
+    "error": "خطأ",
+    "refresh_page": "يؤدي اختيار تحديد إلى تحديث كامل للصفحة.",
+    "loading": "تحميل...",
+    "link_messages": {
+      "new_window": "يفتح في نافذة جديدة.",
+      "external": "افتح الموقع الخارجي."
+    },
+    "skip_to_product_info": "انتقل إلى معلومات المنتج",
+    "total_reviews": "إجمالي المراجعات",
+    "star_reviews_info": "{{ rating_value }} من {{ rating_max }} نجمة",
+    "collapsible_content_title": "المحتوى الذي قد يكون مقيدًا",
+    "complementary_products": "المنتجات التكميلية"
+  },
+  "blogs": {
+    "article": {
+      "blog": "المدونات",
+      "read_more_title": "اعرف المزيد: {{ title }}",
+      "moderated": "ملاحظة: يجب الموافقة على التعليقات قبل النشر.",
+      "comment_form_title": "أكتب تعليقا",
+      "name": "اسم",
+      "email": "بريد إلكتروني",
+      "message": "تعليق",
+      "post": "انشر التعليق",
+      "back_to_blog": "العودة إلى المدونة",
+      "share": "حصة هذه المادة",
+      "success": "لقد تم نشر تعليقك بنجاح! شكرًا لك!",
+      "success_moderated": "لقد تم نشر تعليقك بنجاح. سنقوم بنشره قريبا كما يتم الإشراف على مدونتنا."
     }
   }
 }
