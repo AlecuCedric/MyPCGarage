@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin language editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "general": {
     "password_page": {
@@ -7,7 +16,7 @@
       "login_form_password_placeholder": "您的密碼",
       "login_form_error": "密碼錯誤！",
       "login_form_submit": "輸入",
-      "admin_link_html": "您是商店擁有人嗎？<a href=\"/admin\" class=\"link underlined-link\">請在此登入</a>",
+      "admin_link_html": "您是商店擁有人嗎？<a href=\"\/admin\" class=\"link underlined-link\">請在此登入<\/a>",
       "powered_by_shopify_html": "本商店由 {{ shopify }} 提供技術支援"
     },
     "social": {
@@ -51,7 +60,7 @@
       "close": "關閉分享"
     },
     "slider": {
-      "of": "/",
+      "of": "\/",
       "next_slide": "投影片右側",
       "previous_slide": "投影片左側",
       "name": "投影播放器"
@@ -86,7 +95,8 @@
       "read_more_title": "繼續閱讀：{{ title }}",
       "comments": {
         "one": "{{ count }} 則留言",
-        "other": "{{ count }} 則留言"
+        "other": "{{ count }} 則留言",
+        "few": "{{ count }}條評論"
       },
       "moderated": "請注意，留言須先通過審核才能發佈。",
       "comment_form_title": "發表留言",
@@ -118,7 +128,7 @@
         "minimum_of": "最少 {{ quantity }} 個",
         "maximum_of": "最多 {{ quantity }} 個",
         "multiples_of": "{{ quantity }} 的倍數",
-        "in_cart_html": "購物車中有 <span class=\"quantity-cart\">{{ quantity }}</span> 個",
+        "in_cart_html": "購物車中有 <span class=\"quantity-cart\">{{ quantity }}<\/span> 個",
         "note": "檢視數量規則",
         "min_of": "最少 {{ quantity }} 個",
         "max_of": "最多 {{ quantity }} 個"
@@ -140,8 +150,8 @@
         "view_store_info": "檢視商店資訊",
         "check_other_stores": "查看其他商店的供貨情況",
         "pick_up_available": "可提供取貨服務",
-        "pick_up_available_at_html": "可提供 <span class=\"color-foreground\">{{ location_name }}</span> 的取貨服務",
-        "pick_up_unavailable_at_html": "目前無法提供 <span class=\"color-foreground\">{{ location_name }}</span> 的取貨服務",
+        "pick_up_available_at_html": "可提供 <span class=\"color-foreground\">{{ location_name }}<\/span> 的取貨服務",
+        "pick_up_unavailable_at_html": "目前無法提供 <span class=\"color-foreground\">{{ location_name }}<\/span> 的取貨服務",
         "unavailable": "無法載入取貨服務供應情況",
         "refresh": "重新整理"
       },
@@ -156,7 +166,7 @@
         "image_available": "現在可在圖庫檢視畫面中查看圖片 {{ index }}"
       },
       "view_full_details": "查看完整資訊",
-      "shipping_policy_html": "結帳時計算<a href=\"{{ link }}\">運費</a>。",
+      "shipping_policy_html": "結帳時計算<a href=\"{{ link }}\">運費<\/a>。",
       "choose_options": "選擇選項",
       "choose_product_options": "選擇 {{ product_name }} 的選項",
       "value_unavailable": "{{ option_value }} (無法供貨)",
@@ -172,7 +182,7 @@
         "title": "批發價",
         "note": "提供批發價",
         "minimum": "{{ quantity }}+",
-        "price_at_each": "{{ price }}/每項",
+        "price_at_each": "{{ price }}\/每項",
         "price_range": "{{ minimum }} - {{ maximum }}"
       },
       "taxes_included": "已包含稅額。",
@@ -192,16 +202,19 @@
       "filter_button": "篩選條件",
       "filters_selected": {
         "one": "已選取 {{ count }} 項",
-        "other": "已選取 {{ count }} 項"
+        "other": "已選取 {{ count }} 項",
+        "few": "已選擇{{ count }}"
       },
       "max_price": "最高價格為 {{ price }}",
       "product_count": {
         "one": "{{ count }} 項產品中的 {{ product_count }} 項",
-        "other": "{{ count }} 項產品中的 {{ product_count }} 項"
+        "other": "{{ count }} 項產品中的 {{ product_count }} 項",
+        "few": "{{ product_count }}個產品，共{{ count }}個產品"
       },
       "product_count_simple": {
         "one": "{{ count }} 項產品",
-        "other": "{{ count }} 項產品"
+        "other": "{{ count }} 項產品",
+        "few": "{{ count }}個產品"
       },
       "reset": "重設",
       "sort_button": "排序",
@@ -219,7 +232,8 @@
       "no_results": "找不到與「{{ terms }}」相符的結果。請檢查拼字或使用其他字詞。",
       "results_with_count": {
         "one": "{{ count }} 項結果",
-        "other": "{{ count }} 項結果"
+        "other": "{{ count }} 項結果",
+        "few": "{{ count }}個結果"
       },
       "title": "搜尋結果",
       "page": "頁面",
@@ -227,19 +241,23 @@
       "search_for": "搜尋「{{ terms }}」",
       "results_with_count_and_term": {
         "one": "找到「{{ terms }}」，共 {{ count }} 筆",
-        "other": "找到「{{ terms }}」，共 {{ count }} 筆"
+        "other": "找到「{{ terms }}」，共 {{ count }} 筆",
+        "few": "找到「 {{ terms }} 」的{{ count }}個結果"
       },
       "results_pages_with_count": {
         "one": "{{ count }} 個頁面",
-        "other": "{{ count }} 個頁面"
+        "other": "{{ count }} 個頁面",
+        "few": "{{ count }}頁"
       },
       "results_suggestions_with_count": {
         "one": "{{ count }} 項建議",
-        "other": "{{ count }} 項建議"
+        "other": "{{ count }} 項建議",
+        "few": "{{ count }}條建議"
       },
       "results_products_with_count": {
         "one": "{{ count }} 項商品",
-        "other": "{{ count }} 項商品"
+        "other": "{{ count }} 項商品",
+        "few": "{{ count }}個產品"
       },
       "suggestions": "建議",
       "pages": "頁面"
@@ -270,7 +288,8 @@
       "menu": "選單",
       "cart_count": {
         "one": "{{ count }} 件商品",
-        "other": "{{ count }} 件商品"
+        "other": "{{ count }} 件商品",
+        "few": "{{ count }}項"
       }
     },
     "cart": {
@@ -292,17 +311,17 @@
       "update": "更新",
       "login": {
         "title": "是否有帳號？",
-        "paragraph_html": "<a href=\"{{ link }}\" class=\"link underlined-link\">登入</a>以加速結帳。"
+        "paragraph_html": "<a href=\"{{ link }}\" class=\"link underlined-link\">登入<\/a>以加速結帳。"
       },
       "estimated_total": "估計總金額",
       "new_estimated_total": "新的估計總金額",
-      "duties_and_taxes_included_shipping_at_checkout_with_policy_html": "已包含關稅和稅額。結帳時計算折扣和<a href=\"{{ link }}\">運費</a>。",
+      "duties_and_taxes_included_shipping_at_checkout_with_policy_html": "已包含關稅和稅額。結帳時計算折扣和<a href=\"{{ link }}\">運費<\/a>。",
       "duties_and_taxes_included_shipping_at_checkout_without_policy": "已包含關稅和稅額。結帳時計算折扣和運費。",
-      "taxes_included_shipping_at_checkout_with_policy_html": "已包含稅額。結帳時計算折扣和<a href=\"{{ link }}\">運費</a>。",
+      "taxes_included_shipping_at_checkout_with_policy_html": "已包含稅額。結帳時計算折扣和<a href=\"{{ link }}\">運費<\/a>。",
       "taxes_included_shipping_at_checkout_without_policy": "已包含稅額。結帳時計算折扣和運費。",
-      "duties_included_taxes_at_checkout_shipping_at_checkout_with_policy_html": "已包含關稅。結帳時計算稅額、折扣和<a href=\"{{ link }}\">運費</a>。",
+      "duties_included_taxes_at_checkout_shipping_at_checkout_with_policy_html": "已包含關稅。結帳時計算稅額、折扣和<a href=\"{{ link }}\">運費<\/a>。",
       "duties_included_taxes_at_checkout_shipping_at_checkout_without_policy": "已包含關稅。結帳時計算稅額、折扣和運費。",
-      "taxes_at_checkout_shipping_at_checkout_with_policy_html": "結帳時計算稅額、折扣和<a href=\"{{ link }}\">運費</a>。",
+      "taxes_at_checkout_shipping_at_checkout_with_policy_html": "結帳時計算稅額、折扣和<a href=\"{{ link }}\">運費<\/a>。",
       "taxes_at_checkout_shipping_at_checkout_without_policy": "結帳時計算稅額、折扣和運費。"
     },
     "footer": {
@@ -323,7 +342,7 @@
     "collection_template": {
       "title": "商品系列",
       "empty": "找不到任何產品",
-      "use_fewer_filters_html": "使用較少篩選條件或<a class=\"{{ class }}\" href=\"{{ link }}\">全部移除</a>"
+      "use_fewer_filters_html": "使用較少篩選條件或<a class=\"{{ class }}\" href=\"{{ link }}\">全部移除<\/a>"
     },
     "video": {
       "load_video": "載入影片：{{ description }}"
@@ -350,17 +369,19 @@
     "quick_order_list": {
       "product_total": "商品小計",
       "view_cart": "檢視購物車",
-      "each": "{{ money }}/每項",
+      "each": "{{ money }}\/每項",
       "product": "商品",
       "variant": "子類",
       "variant_total": "子類總計",
       "items_added": {
         "one": "已新增 {{ quantity }} 個品項",
-        "other": "已新增 {{ quantity }} 個品項"
+        "other": "已新增 {{ quantity }} 個品項",
+        "few": "新增了{{ quantity }}件商品"
       },
       "items_removed": {
         "one": "已移除 {{ quantity }} 個品項",
-        "other": "已移除 {{ quantity }} 個品項"
+        "other": "已移除 {{ quantity }} 個品項",
+        "few": "已刪除{{ quantity }}件商品"
       },
       "product_variants": "商品子類",
       "total_items": "品項總數",
@@ -374,13 +395,13 @@
     }
   },
   "localization": {
-    "country_label": "國家/地區",
+    "country_label": "國家\/地區",
     "language_label": "語言",
     "update_language": "更新語言",
-    "update_country": "更新國家/地區",
+    "update_country": "更新國家\/地區",
     "search": "搜尋",
-    "popular_countries_regions": "常見國家/地區",
-    "country_results_count": "找到 {{ count }} 個國家/地區"
+    "popular_countries_regions": "常見國家\/地區",
+    "country_results_count": "找到 {{ count }} 個國家\/地區"
   },
   "customer": {
     "account": {
@@ -409,9 +430,9 @@
       "address1": "地址 1",
       "address2": "地址 2",
       "city": "市",
-      "country": "國家/地區",
+      "country": "國家\/地區",
       "province": "省",
-      "zip": "郵政/郵遞區號",
+      "zip": "郵政\/郵遞區號",
       "phone": "電話",
       "set_default": "設為預設地址",
       "add": "新增地址",
@@ -523,6 +544,351 @@
       "send_on_label": "發送時間 (選填)",
       "expanded": "禮品卡收件人表單已展開",
       "collapsed": "禮品卡收件人表單已收合"
+    }
+  },
+  "shopify": {
+    "checkout": {
+      "shipping": {
+        "estimated_delivery_date": {
+          "few": "%{count} 工作天"
+        },
+        "other_method": {
+          "few": "%{count} 個其他方法可用，起始時間為"
+        },
+        "subscription_delivery_description": {
+          "prepaid_delivery_frequency": {
+            "few": "%{count} 次交貨"
+          },
+          "subscription_delivery_frequency": {
+            "day": {
+              "few": "每 %{count} 天"
+            },
+            "week": {
+              "few": "每 %{count} 週"
+            },
+            "month": {
+              "few": "每 %{count} 個月"
+            },
+            "year": {
+              "few": "每 %{count} 年"
+            }
+          },
+          "first_n_order_free": {
+            "few": "前 %{count} 訂單免費"
+          },
+          "free_for_first_n_order": {
+            "few": "對於前 %{count} 訂單"
+          }
+        },
+        "shipping_method_first_shipment_group_title": {
+          "few": "第一批出貨"
+        },
+        "shipping_method_recurring_shipments_group_title": {
+          "few": "定期出貨"
+        }
+      },
+      "general": {
+        "map": {
+          "cluster_title": {
+            "few": "由{{number}}個標記組成的簇"
+          }
+        }
+      },
+      "customer_account": {
+        "saved_address_option_description": {
+          "few": "您已儲存{{count}}個位址。"
+        }
+      },
+      "stock": {
+        "unshippable_product": {
+          "header": {
+            "few": "%{count} (of) 件商品沒有可用的送貨方式"
+          },
+          "message": {
+            "few": "這些商品將從您的購物車中刪除，因為您的地址沒有可用的送貨方式。"
+          }
+        },
+        "item_label": {
+          "few": "{{count}}件"
+        },
+        "unfulfillable_product": {
+          "message": {
+            "few": "送貨方式 %{delivery_method} 不再適用於這些商品。"
+          },
+          "default_message": {
+            "few": "所選的交付方式不再適用於這些商品。"
+          }
+        }
+      },
+      "order_summary": {
+        "expand_component_information": {
+          "few": "顯示 %{count} 件商品"
+        },
+        "collapse_component_information": {
+          "few": "隱藏 %{count} 項"
+        },
+        "discount_discovery": {
+          "merchandise_quantity_label": {
+            "few": "%{count} 個項目"
+          }
+        },
+        "discount_title_stacking": {
+          "few": "折扣"
+        },
+        "discount_order_stacking": {
+          "few": "訂單折扣"
+        }
+      },
+      "payment": {
+        "order_covered_by_gift_cards_notice": {
+          "few": "您的訂單包含在您的禮品卡中。"
+        },
+        "card_fields_unavailable_html": {
+          "few": "目前不支援銀行卡支付。<br><a href=\"%{current_url}\">請重新整理頁面<\/a>或嘗試其他付款方式。"
+        },
+        "expired_cards_info": {
+          "few": "您可以在帳戶中檢視和編輯 %{count} 張過期卡。"
+        },
+        "order_edit_banner_items_added": {
+          "few": "新增：%{count}"
+        }
+      },
+      "shipping_errors": {
+        "shipping_method_not_available_generic": {
+          "few": "您購物車中的某些商品無法運送到您輸入的地址。請檢查地址以確保其正確，然後重試或選擇其他地址。"
+        },
+        "shipping_method_not_available_updated": {
+          "few": "您新增的一件或多件商品無法運送到您所在的位置。刪除它們以完成您的訂單或聯絡商店。"
+        }
+      },
+      "processing": {
+        "wait": {
+          "medium": {
+            "few": "您的訂單正在處理中。預計等待時間為 %{count} 分鐘。"
+          }
+        }
+      },
+      "thank_you": {
+        "login_reorder_link_text": {
+          "few": "也購買這些產品"
+        },
+        "gift_card_confirmation_by_text_typ": {
+          "few": "幾分鐘後您將收到一封包含禮品卡的簡訊。"
+        },
+        "gift_card_confirmation_by_email_typ": {
+          "few": "幾分鐘後您將收到一封包含禮品卡的電子郵件。"
+        },
+        "gift_card_email_title": {
+          "few": "禮品卡已透過電子郵件發送"
+        },
+        "gift_card_text_title": {
+          "few": "禮品卡已透過電子郵件發送"
+        },
+        "gift_card_resent_confirmation": {
+          "few": "禮品卡已退回。"
+        },
+        "gift_card_resend_failure": {
+          "few": "重新發送禮品卡時出現問題。再試一次或聯絡我們。"
+        }
+      },
+      "order_payment_collection": {
+        "changes_summary": {
+          "added": {
+            "few": "新增：%{count}"
+          }
+        }
+      },
+      "open_graph_meta_tag": {
+        "title_with_products": {
+          "few": "購買 %{product_name} 和另外 %{count} 件商品"
+        }
+      },
+      "subscriptions": {
+        "recurring_totals_with_policies": {
+          "first_cycles": {
+            "few": "前 %{count} 筆付款每筆金額為 %{total_price}"
+          }
+        },
+        "recurring_total_intervals": {
+          "day": {
+            "few": "%{count} 天"
+          },
+          "week": {
+            "few": "%{count} 週"
+          },
+          "month": {
+            "few": "%{count} 個月"
+          },
+          "year": {
+            "few": "%{count} 年"
+          }
+        },
+        "recurring_totals_with_initial_order_shipping_discount_with_policies": {
+          "first_cycles": {
+            "few": "，則會有 %{count} 筆付款，金額為 %{total_price}"
+          }
+        }
+      },
+      "contextual_availability": {
+        "title": {
+          "few": "不可用的產品"
+        },
+        "products_not_available": {
+          "few": "這些產品將從您的購物車中刪除，因為它們在您所在的國家\/地區不可用。"
+        },
+        "all_products_in_cart_unavailable": {
+          "few": "這些產品在您所在的國家\/地區不可用。"
+        }
+      },
+      "throttle": {
+        "estimated_wait_time": {
+          "few": "預計等待時間： {{count}}分鐘"
+        }
+      },
+      "deliverability": {
+        "not_deliverable": {
+          "title": {
+            "few": "%{count} (of) 件商品沒有可用的送貨方式"
+          },
+          "message": {
+            "few": "這些商品將從您的購物車中刪除，因為您的地址沒有可用的送貨方式。"
+          }
+        }
+      },
+      "pickup_point": {
+        "paginator": {
+          "header": {
+            "few": "顯示 %{first} - %{last} 點（共 %{count} 點）"
+          },
+          "selected_pickup_point_label": {
+            "few": "%{pickup_point_index} 點（共 %{count} 點）"
+          },
+          "selected_page": {
+            "few": "%{first} - %{last} 點（共 %{count} 點）"
+          }
+        },
+        "number_of_pickup_points_near_location": {
+          "few": "您所在位置附近有 %{count} 個上車點"
+        }
+      },
+      "local_pickup": {
+        "location_information": {
+          "few": "%{address} 附近有 %{count} 家商店有庫存"
+        },
+        "paginator": {
+          "label": {
+            "few": "%{first} - %{last} 家店（共 %{count} 家）"
+          }
+        },
+        "reveal_more_label": {
+          "few": "顯示另外 %{count} 個地點"
+        }
+      }
+    },
+    "notices": {
+      "order": {
+        "cancel_reason": {
+          "few": "其他的東西"
+        }
+      }
+    },
+    "page_titles": {
+      "search_results": {
+        "few": "搜尋：找到「%{terms}」的 %{count} 個結果"
+      }
+    }
+  },
+  "customer_accounts": {
+    "orders": {
+      "order_list": {
+        "items": {
+          "few": "{{count}}件"
+        }
+      },
+      "order_status": {
+        "delivered_description_gift_card": {
+          "few": "禮品卡已透過電子郵件發送。"
+        },
+        "gift_card_label": {
+          "few": "禮品卡"
+        },
+        "gift_card_resend": {
+          "few": "我希望轉發電子郵件"
+        },
+        "gift_card_resend_description": {
+          "few": "如果您沒有收到，請要求重新發送電子郵件或"
+        },
+        "confirmed_gift_card_additional_description": {
+          "few": "每張禮品卡將透過單獨的電子郵件發送。"
+        },
+        "delivered_description_gift_card_text": {
+          "few": "禮品卡是透過簡訊發送的。"
+        },
+        "gift_card_resend_text": {
+          "few": "我想重新發送簡訊"
+        },
+        "gift_card_resend_description_text": {
+          "few": "如果您沒有收到，請要求重新發送簡訊或"
+        },
+        "confirmed_gift_card_additional_description_text": {
+          "few": "每張禮品卡都將透過單獨的簡訊發送。"
+        },
+        "gift_resend_success": {
+          "few": "禮品卡已退回"
+        },
+        "gift_resend_failure": {
+          "few": "重新發送禮品卡時出現問題。再試一次或聯絡我們。"
+        },
+        "delivered_description_digital": {
+          "few": "這些項目已完成。"
+        }
+      },
+      "if_not_received": {
+        "few": "如果您還沒有收到它們，"
+      }
+    },
+    "B2B": {
+      "orders": {
+        "draft_order_list": {
+          "pending_tab_accessibility_label": {
+            "pending_orders": {
+              "few": "您有{{count}}個待處理訂單"
+            }
+          }
+        }
+      },
+      "draft_order_details": {
+        "payment_status": {
+          "pending": {
+            "banner_overdue": {
+              "few": "您的訂單付款已逾期{{count}}天"
+            },
+            "banner_due": {
+              "few": "您的付款期限為{{count}}天"
+            }
+          }
+        }
+      }
+    },
+    "errors": {
+      "banner_title": {
+        "few": "有{{count}}個錯誤"
+      }
+    },
+    "ui_components": {
+      "autocompleteOptionsAvailable": {
+        "few": "{{count}}件商品可用"
+      },
+      "month": {
+        "few": "月"
+      }
+    },
+    "date": {
+      "humanize": {
+        "lessThanOneHourAgo": {
+          "few": "{{count}}分鐘前"
+        }
+      }
     }
   }
 }
