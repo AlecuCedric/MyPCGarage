@@ -1489,9 +1489,141 @@
         "filter_title": "تمت تصفيته",
         "filter": {
           "clear_section": "إفراغ القسم",
-          "clear_all": "إفراغ كل شيء"
+          "clear_all": "إفراغ كل شيء",
+          "apply": "يتقدم",
+          "date": {
+            "start_date": "التاريخ الأولي",
+            "end_date": "الموعد النهائي",
+            "title": "تاريخ الطلب",
+            "today": "اليوم",
+            "last_7_days": "اخر 7 ايام",
+            "last_30_days": "آخر 30 يومًا",
+            "last_90_days": "آخر 90 يومًا",
+            "last_365_days": "آخر 12 شهرًا",
+            "custom": "شخصية"
+          }
         }
-      }
+      },
+      "order_status": {
+        "canceled_description": "لقد تم إلغاء طلبك بتاريخ {{date}} .",
+        "canceled_label": "تم التراجع عنه",
+        "canceled_title": "تم إلغاء طلبك",
+        "come_back": "تحقق مرة أخرى من هذه الصفحة للحصول على تحديثات بشأن حالة طلبك.",
+        "company_tracking_number": "رقم التتبع {{company}} :",
+        "confirmed_label": "مؤكد",
+        "confirmed_title": "تم تأكيد طلبك",
+        "delivered_description": "تم تسليم هذه الشحنة.",
+        "delivered_label": "كسوة",
+        "delivered_title": "تم تسليم الطلب",
+        "estimated_delivery": "التاريخ المقدر: {{date}}",
+        "in_review_description": "سنخبرك إذا كنا بحاجة إلى مزيد من المعلومات أو عندما يتم تأكيد طلبك.",
+        "in_review_label": "قيد المراجعة",
+        "in_review_title": "طلبك قيد المراجعة",
+        "no_tracking_number": "لا يوجد رقم تتبع لهذه الشحنة.",
+        "on_its_way_label": "جاري التسليم",
+        "on_its_way_title": "جارٍ تسليم طلبك",
+        "out_for_delivery_label": "تم شحنها للتسليم",
+        "out_for_delivery_title": "جارٍ تسليم طلبك",
+        "resume_tracking": "استئناف التتبع",
+        "submitted_label": "مُقَدَّم",
+        "track_shipment": "تتبع الشحنة",
+        "request_return": "طلب العودة",
+        "attempted_delivery_label": "حاول تسليم",
+        "attempted_delivery_description": "فشلت محاولة التسليم.",
+        "confirmed_description": "تلقيت طلبك.",
+        "on_its_way_description": "هذه الشحنة في طريقها.",
+        "out_for_delivery_description": "جارٍ تسليم هذه الشحنة.",
+        "preparing_for_shipping_label": "التجهيز للشحن",
+        "preparing_for_shipping_description": "يتم الآن إعداد هذه العناصر للشحن.",
+        "ready_for_pickup_label": "جاهز للإستلام",
+        "ready_for_pickup_description": "هذه العناصر جاهزة للاستلام. خذ تأكيد الطلب معك عند استلام الطلب.",
+        "picked_up_label": "عالي",
+        "picked_up_description": "تمت إزالة هذه العناصر.",
+        "submitted_description": "قم بمراجعة طلبك وتفاصيل الدفع.",
+        "last_updated": "آخر تحديث في {{date}}",
+        "multiple_shipments_label": "المزيد من الشحنات",
+        "view_order_for_details": "لمزيد من التفاصيل، راجع النظام",
+        "confirmed_description_digital": "ستتلقى بريدًا إلكترونيًا عندما يكون طلبك جاهزًا.",
+        "delivered_description_gift_card": {
+          "one": "تم إرسال بطاقة الهدية عبر البريد الإلكتروني.",
+          "other": "تم إرسال بطاقات الهدايا عبر البريد الإلكتروني.",
+          "few": "تم إرسال بطاقات الهدايا عبر البريد الإلكتروني."
+        },
+        "gift_card_label": {
+          "one": "كرت هدية",
+          "other": "بطاقات الهدايا",
+          "few": "بطاقات الهدايا"
+        },
+        "gift_card_resend": {
+          "one": "أريد إعادة إرسال البريد الإلكتروني",
+          "other": "أريد إعادة توجيه رسائل البريد الإلكتروني",
+          "few": "أريد إعادة توجيه رسائل البريد الإلكتروني"
+        },
+        "gift_card_resend_description": {
+          "one": "إذا لم تستلمها، فاطلب إعادة إرسال بريدك الإلكتروني",
+          "other": "إذا لم تستلمها، فاطلب إعادة إرسال رسائل البريد الإلكتروني أو",
+          "few": "إذا لم تستلمها، فاطلب إعادة إرسال رسائل البريد الإلكتروني أو"
+        },
+        "ready_for_pickup_location": "طلبك جاهز للاستلام في موقعك",
+        "confirmed_description_pickup": "ستتلقى بريدًا إلكترونيًا عندما يكون طلبك جاهزًا للاستلام.",
+        "confirmed_gift_card_additional_description": {
+          "one": "سيتم إرسال بطاقة الهدايا في بريد إلكتروني منفصل.",
+          "other": "سيتم إرسال كل بطاقة هدية في بريد إلكتروني منفصل.",
+          "few": "سيتم إرسال كل بطاقة هدية في بريد إلكتروني منفصل."
+        },
+        "confirmed_description_gift_card_text": "سوف تتلقى رسالة نصية عندما يكون طلبك جاهزا.",
+        "delivered_description_gift_card_text": {
+          "one": "تم إرسال بطاقة الهدية عبر رسالة نصية.",
+          "other": "تم إرسال بطاقات الهدايا عبر رسالة نصية.",
+          "few": "تم إرسال بطاقات الهدايا عبر رسالة نصية."
+        },
+        "gift_card_resend_text": {
+          "one": "أريد إعادة إرسال الرسالة النصية",
+          "other": "أريد إعادة إرسال الرسائل النصية",
+          "few": "أريد إعادة إرسال الرسائل النصية"
+        },
+        "gift_card_resend_description_text": {
+          "one": "إذا لم تستلمها، فاطلب إعادة إرسال الرسالة النصية أو",
+          "other": "إذا لم تستلمها، فاطلب إعادة إرسال الرسائل النصية أو",
+          "few": "إذا لم تستلمها، فاطلب إعادة إرسال الرسائل النصية أو"
+        },
+        "confirmed_gift_card_additional_description_text": {
+          "one": "سيتم إرسال بطاقة الهدايا في رسالة نصية منفصلة.",
+          "other": "سيتم إرسال كل بطاقة هدية في رسالة نصية منفصلة.",
+          "few": "سيتم إرسال كل بطاقة هدية في رسالة نصية منفصلة."
+        },
+        "gift_resend_success": {
+          "one": "تمت إعادة إرسال بطاقة الهدايا",
+          "other": "لقد تم إرجاع بطاقات الهدايا",
+          "few": "لقد تم إرجاع بطاقات الهدايا"
+        },
+        "gift_resend_failure": {
+          "one": "حدثت مشكلة أثناء إعادة إرسال بطاقة الهدايا. حاول مرة أخرى أو اتصل بنا.",
+          "other": "حدثت مشكلة أثناء إعادة إرسال بطاقات الهدايا. حاول مرة أخرى أو اتصل بنا.",
+          "few": "حدثت مشكلة أثناء إعادة إرسال بطاقات الهدايا. حاول مرة أخرى أو اتصل بنا."
+        },
+        "amazon_buy_with_prime": {
+          "order_tracking_link": {
+            "text": "الإدارة مع أمازون",
+            "new_window_disclaimer": "(يفتح نافذة جديدة)"
+          }
+        },
+        "attempted_to_deliver_label": "حاول تسليم",
+        "there_was_a_problem_label": "حدثت مشكلة",
+        "buy_with_prime_logo_accessibility_label": "شراء أمازون مع شعار Prime",
+        "delivered": "تاريخ الوصول: {{date}}",
+        "complete_label": "مكتمل",
+        "multiple_statuses_label": "حالات لأوامر متعددة",
+        "status_timestamp": "تاريخ التحديث: {{date}}",
+        "delivered_description_digital": {
+          "one": "هذه المقالة كاملة.",
+          "other": "تم الانتهاء من هذه العناصر.",
+          "few": "تم الانتهاء من هذه العناصر."
+        }
+      },
+      "status_mark_as_delivered": "وضع علامة على أنه تم التسليم",
+      "status_title": "حالة الطلب",
+      "buy_again": "شراء مرة أخرى"
     },
     "order_details": {
       "addresses_section_title": "الفواتير والشحن",
@@ -2109,7 +2241,141 @@
       "back_to_blog": "العودة إلى المدونة",
       "share": "حصة هذه المادة",
       "success": "لقد تم نشر تعليقك بنجاح! شكرًا لك!",
-      "success_moderated": "لقد تم نشر تعليقك بنجاح. سنقوم بنشره قريبا كما يتم الإشراف على مدونتنا."
+      "success_moderated": "لقد تم نشر تعليقك بنجاح. سنقوم بنشره قريبا كما يتم الإشراف على مدونتنا.",
+      "comments": {
+        "one": "تعليق {{ count }}",
+        "other": "{{ count }} تعليق",
+        "few": "{{ count }} تعليق"
+      }
+    }
+  },
+  "onboarding": {
+    "product_title": "مثال على عنوان المنتج",
+    "collection_title": "اسم المجموعة"
+  },
+  "products": {
+    "product": {
+      "add_to_cart": "أضف إلى السلة",
+      "description": "وصف",
+      "on_sale": "أُوكَازيُون",
+      "product_variants": "متغيرات المنتج",
+      "share": "شارك هذا المنتج",
+      "sold_out": "نفذ",
+      "unavailable": "غير متوفره",
+      "vendor": "تاجر",
+      "video_exit_message": "{{ title }} يفتح الفيديو بملء الشاشة في نفس النافذة.",
+      "xr_button": "عرض في المساحة الخاصة بك",
+      "xr_button_label": "اعرض في مساحتك الخاصة، وسيتم تحميل المقالة في نافذة الواقع المعزز",
+      "quantity": {
+        "label": "كمية",
+        "input_label": "الكمية لـ {{ product }}",
+        "increase": "زيادة الكمية لـ {{ product }}",
+        "decrease": "تقليل الكمية لـ {{ product }}",
+        "minimum_of": "الحد الأدنى {{ quantity }}",
+        "maximum_of": "الحد الأقصى {{ quantity }}",
+        "multiples_of": "زيادات {{ quantity }}",
+        "in_cart_html": "<span class=\"quantity-cart\">{{ quantity }}<\/span> في سلة التسوق",
+        "note": "انظر قواعد الكمية",
+        "min_of": "الحد الأدنى {{ quantity }}",
+        "max_of": "الحد الأقصى {{ quantity }}"
+      },
+      "price": {
+        "from_price_html": "البدء بـ {{ price }}",
+        "regular_price": "سعر عادي",
+        "sale_price": "مبيعات",
+        "unit_price": "سعر الوحدة"
+      },
+      "pickup_availability": {
+        "view_store_info": "عرض معلومات المتجر",
+        "check_other_stores": "عرض التوفر في المتاجر الأخرى",
+        "pick_up_available": "بيك آب متاح",
+        "pick_up_available_at_html": "الاستلام متاح في <span class=\"color-foreground\">{{ location_name }}<\/span>",
+        "pick_up_unavailable_at_html": "الاستلام غير متاح حاليًا في <span class=\"color-foreground\">{{ location_name }}<\/span>",
+        "unavailable": "تعذر تحميل مدى التوفر للاستلام",
+        "refresh": "ينعش"
+      },
+      "media": {
+        "open_media": "يفتح الوسائط {{ index }} في نافذة مشروطة",
+        "play_model": "العب في العارض ثلاثي الأبعاد",
+        "play_video": "تشغيل الفيديو",
+        "gallery_viewer": "عارض المعرض",
+        "load_image": "يقوم بتحميل الصورة {{ index }} في عرض المعرض",
+        "load_model": "قم بتحميل النموذج ثلاثي الأبعاد {{ index }} في عرض المعرض",
+        "load_video": "قم بتشغيل الفيديو {{ index }} في عرض المعرض",
+        "image_available": "الصورة {{ index }} متاحة الآن في عرض المعرض"
+      },
+      "view_full_details": "انظر التفاصيل الكاملة",
+      "shipping_policy_html": "يتم احتساب <a href=\"&lt;span%20class='notranslate'&gt;{{%20link%20}}&lt;\/span&gt;\">رسوم الشحن<\/a> عند الخروج.",
+      "choose_options": "اختر الخيارات",
+      "choose_product_options": "تحديد خيارات لـ {{ product_name }}",
+      "value_unavailable": "{{ option_value }} – غير متاح",
+      "variant_sold_out_or_unavailable": "البديل غير متوفر أو غير متوفر",
+      "inventory_in_stock": "في الأوراق المالية",
+      "inventory_in_stock_show_count": "{{ quantity }} في المخزن",
+      "inventory_low_stock": "انخفاض المخزون",
+      "inventory_low_stock_show_count": "المخزون المنخفض: لم يتبق سوى {{ quantity }} من العناصر",
+      "inventory_out_of_stock": "ليس في المخزون",
+      "inventory_out_of_stock_continue_selling": "في الأوراق المالية",
+      "sku": "رمز التخزين التعريفي",
+      "volume_pricing": {
+        "title": "التسعير لكل حجم",
+        "note": "تسعير الحجم متاح",
+        "minimum": "أكثر من {{ quantity }}",
+        "price_at_each": "بسعر {{ price }} \/pc."
+      },
+      "taxes_included": "الضرائب المدرجة.",
+      "duties_included": "الرسوم الجمركية متضمنة.",
+      "duties_and_taxes_included": "شامل الضرائب والرسوم الجمركية."
+    },
+    "modal": {
+      "label": "معرض الوسائط"
+    },
+    "facets": {
+      "apply": "يتقدم",
+      "clear": "واضح",
+      "clear_all": "إزالة كل شيء",
+      "from": "من",
+      "filter_and_sort": "تصفية وفرز",
+      "filter_by_label": "منقي:",
+      "filter_button": "تمت تصفيته",
+      "max_price": "أعلى سعر هو {{ price }}",
+      "reset": "واضح",
+      "sort_button": "فرزها",
+      "sort_by_label": "ترتيب حسب:",
+      "to": "بواسطة",
+      "filters_selected": {
+        "one": "تم تحديد {{ count }}",
+        "other": "تم تحديد {{ count }}",
+        "few": "تم تحديد {{ count }}"
+      },
+      "product_count": {
+        "one": "{{ product_count }} من {{ count }} منتج",
+        "other": "{{ product_count }} من إجمالي {{ count }} من المنتجات",
+        "few": "{{ product_count }} من إجمالي {{ count }} من المنتجات"
+      },
+      "product_count_simple": {
+        "one": "{{ count }} المنتج",
+        "other": "{{ count }} من المنتجات",
+        "few": "{{ count }} من المنتجات"
+      },
+      "clear_filter": "قم بإزالة الفلتر",
+      "filter_selected_accessibility": "{{ type }} ( تم تحديد {{ count }} مرشحات)",
+      "show_more": "أظهر المزيد",
+      "show_less": "عرض أقل",
+      "filter_and_operator_subtitle": "تطابقهم جميعا"
+    }
+  },
+  "templates": {
+    "search": {
+      "no_results": "لم يتم العثور على نتائج لـ \" {{ terms }} \". قم بالتدقيق الإملائي أو استخدم كلمة أو عبارة مختلفة.",
+      "title": "نتائج البحث",
+      "results_with_count": {
+        "one": "نتيجة {{ count }}",
+        "other": "{{ count }} نتيجة",
+        "few": "{{ count }} نتيجة"
+      },
+      "page": "صفحة",
+      "products": "منتجات"
     }
   }
 }
