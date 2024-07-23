@@ -526,6 +526,172 @@
         "thank_you_title_review": "لقد تم إرسال طلبك للمراجعة",
         "thank_you_confirmed_order_with_draft": "سنخبرك إذا كنا بحاجة إلى مزيد من المعلومات أو عندما يتم تأكيد طلبك.",
         "breadcrumbs_submitted": "مُقَدَّم"
+      },
+      "pickup_point": {
+        "geolocation": {
+          "errors": {
+            "permission_denied": "تعذر الحصول على موقعك. حاول ثانية."
+          }
+        },
+        "no_business_hours": "البرنامج غير متوفر",
+        "open_twenty_four_hours": "مفتوح على مدار الساعة"
+      },
+      "error_page": {
+        "terminal": {
+          "title": "حدثت مشكلة في إكمال الطلب",
+          "message": "يرجى تحديث هذه الصفحة أو المحاولة مرة أخرى خلال بضع دقائق",
+          "action": {
+            "cta": "قم بتحديث الصفحة"
+          },
+          "request_id": "معرف الطلب: {{requestId}}"
+        }
+      },
+      "notice_banner": {
+        "return_to_cart_link_text": "العودة إلى السلة",
+        "return_to_cart_to_update_quantities": "%{return_to_cart_link_text} لتحديث الكميات",
+        "subscription_changed": "لقد تغير أحد اشتراكاتك.",
+        "company_location_changed": "تم تحديث عربة التسوق. تحقق من طلبك قبل إرساله.",
+        "violations_title": "{{violation}} مفقود أو غير صالح",
+        "individual_violations_title": {
+          "DeliveryViolations": "عنوان الشحن",
+          "PaymentViolations": "عنوان وصول الفواتير",
+          "OtherViolations": "معلومات الطلب",
+          "UnhandledViolations": "معلومات الطلب"
+        },
+        "all_violations_content": "اتصل بنا أو {{emailLink}} لتحديث هذه المعلومات وإكمال طلبك:",
+        "all_violations_email_link": "مراسلتنا على البريد الاليكتروني",
+        "editable_shipping_address_violations_message_title": "أضف هذه المعلومات لإكمال طلبك:",
+        "editable_shipping_address_violations_message_footer": "لتحديث عنوان هذا الموقع بشكل دائم، {{emailLink}} .",
+        "editable_shipping_address_violations_email_link": "اتصل بنا",
+        "company_location_changed_product_removed": "تم تحديث سلة التسوق الخاصة بك لأن بعض المنتجات غير متوفرة في هذا الموقع. تحقق من طلبك قبل إرساله.",
+        "shipping_address_incomplete_title": "عنوان الشحن غير مكتمل",
+        "calculating_shipping": "رسوم الشحن لا تزال قيد الاحتساب. حاول مرة أخرى خلال بضع ثوان. لم يتم تحصيل أي رسوم منك.",
+        "calculating_taxes": "ولا تزال الضرائب قيد الاحتساب. يرجى المحاولة مرة أخرى في بضع ثوان. لم يتم تحصيل أي رسوم منك."
+      },
+      "marketplaces": {
+        "legal_notice": {
+          "legal_text": "شاور",
+          "link_label": "الشروط والأحكام الخاصة {{partnerDisplayName}}"
+        }
+      },
+      "online_store_chat": {
+        "title": "هل لديك أسئلة؟ دردش معنا"
+      },
+      "local_pickup": {
+        "location_information": {
+          "one": "يوجد %{count} متجر به مخزون بالقرب من %{address}",
+          "other": "يوجد %{count} متجر به مخزون بالقرب من %{address}",
+          "few": "يوجد %{count} متجر به مخزون بالقرب من %{address}"
+        },
+        "toggle_location": "أريد تغيير الموقع",
+        "or": "أو",
+        "cancel": "يلغي",
+        "your_location": "موقعك",
+        "search_button": "البحث عن المتاجر",
+        "no_stores_found": "لم يتم العثور على متاجر",
+        "could_not_resolve_address": "لا يمكن العثور على عنوانك. يرجى المحاولة مرة أخرى أو استخدام عنوان مختلف",
+        "paginator": {
+          "accessibility_label": "ترقيم الصفحات المحلية للاسترجاع",
+          "previous": "الصفحة السابقة",
+          "next": "الصفحة التالية",
+          "label": {
+            "one": "%{first} - %{last} من متجر %{count}.",
+            "other": "%{first} - %{last} من %{count} متجر",
+            "few": "%{first} - %{last} من %{count} متجر"
+          }
+        },
+        "reveal_more_label": {
+          "one": "يتم عرض %{count} من المواقع الإضافية",
+          "other": "يتم عرض %{count} من المواقع الإضافية",
+          "few": "يتم عرض %{count} من المواقع الإضافية"
+        },
+        "location_address_search_label": "عنوان"
+      },
+      "captcha": {
+        "title": "أكمل التحقق من CAPTCHA للمتابعة",
+        "errors": {
+          "not_solved": "أكمل التحقق من CAPTCHA للمتابعة"
+        }
+      },
+      "discount_errors": {
+        "generic_error": "لا يمكن معالجة طلبك لأن رمز الخصم الخاص بك لم يعد متاحًا. قم بمراجعة إجمالي طلبك وحاول مرة أخرى."
+      },
+      "wallets": {
+        "return_to_store": "أعود إلى المتجر",
+        "redirect_hint": "سيُطلب منك تسجيل الدخول باستخدام {{walletName}} .",
+        "logged_in": "تم تسجيل الدخول إلى {{email}}",
+        "shipping_line_label": "إرسال",
+        "payment_in_progress_title": "الدفع قيد التقدم",
+        "payment_in_progress_body": "تتم معالجة دفعتك. سيتم الانتهاء من طلبك قريبا.",
+        "call_to_action": "الدفع باستخدام {{walletName}}",
+        "errors": {
+          "unavailable": {
+            "title": "{{walletName}} غير متاح",
+            "description": "{{walletName}} لم يكن متاحًا. الرجاء استخدام طريقة دفع أخرى أو حاول مرة أخرى لاحقًا.",
+            "instructions": "حدثت مشكلة في الدالة {{walletName}} . قم بالعودة إلى المتجر للمحاولة مرة أخرى أو إكمال الطلب بطريقة أخرى.",
+            "unavailable_for_country": "طريقة الدفع {{walletName}} غير متوفرة في {{countryName}} . حدد طريقة دفع أخرى لإكمال عملية الشراء"
+          },
+          "generic": "حدثت مشكلة في {{walletName}} . حاول مرة أخرى أو استخدم طريقة دفع أخرى.",
+          "terminal": "حدثت مشكلة في {{walletName}} . استخدم طريقة دفع أخرى.",
+          "detour": {
+            "stock_problems": "بعض العناصر لم تعد متوفرة. أغلق {{walletName}} وحاول مرة أخرى.",
+            "price_change": "لقد تغيرت أسعار بعض العناصر. أغلق {{walletName}} لمراجعة الطلب والمحاولة مرة أخرى.",
+            "queue": "لقد تم وضعك في قائمة انتظار الخروج. أغلق {{walletName}} للمتابعة."
+          },
+          "unsupported": {
+            "address": "لا يمكن للتاجر التسليم إلى عنوان الشحن الذي حددته.",
+            "postal_code": "هذا الموقع غير معتمد",
+            "wallet_is_unavailable": "لا يمكن استخدام {{walletName}} مع هذا العنوان. يرجى تحديد عنوان آخر أو إغلاق {{walletName}} لإكمال عملية الشراء"
+          },
+          "outdated": {
+            "shipping_method": "لقد تغيرت خيارات الشحن لطلبك. قم بمراجعة اختيارك."
+          },
+          "invalid": {
+            "shipping_address": "الرجاء إدخال عنوان شحن صالح",
+            "billing_address": "الرجاء إدخال عنوان صالح لإرسال الفواتير",
+            "shipping_option": "اختر خيار شحن صالحًا",
+            "email": "يرجى إدخال البريد الإلكتروني الصحيح",
+            "zone": "الرجاء إدخال ولاية\/مقاطعة صالحة",
+            "postal_code": "الرجاء إدخال الرمز البريدي \/ الرمز البريدي صالح",
+            "reduction_code": "أدخل رمز خصم أو بطاقة هدايا صالحة",
+            "billing_must_match_shipping": "يجب أن يتطابق مع عنوان الشحن"
+          },
+          "missing": {
+            "first_name": "أدخل الاسم الأول",
+            "last_name": "أدخل اسم العائلة",
+            "address1": "أدخل عنوانا",
+            "address2": "أدخل شقة أو غرفة أو ما إلى ذلك.",
+            "city": "أدخل مدينة",
+            "province": "اختر الولاية\/المقاطعة",
+            "country": "حدد البلد\/المنطقة",
+            "zip": "أدخل الرمز البريدي\/الرمز البريدي",
+            "phone": "أدخل رقم الهاتف"
+          },
+          "formatting": {
+            "name_contains_emojis": "احذف الرمز التعبيري من اسمك",
+            "postal_code_contains_emoji": "حذف الرمز البريدي الرموز التعبيرية",
+            "first_name_too_long": "يحتوي الاسم الأول على عدد كبير جدًا من الأحرف",
+            "last_name_too_long": "اللقب يحتوي على عدد كبير جدا من الحروف"
+          },
+          "select_different_shipping_address_to_resolve_errors": "عنوان الشحن غير صالح. حدد عنوانًا آخر أو استخدم عنوانًا جديدًا.",
+          "unavailable_terminal": {
+            "instructions": "طريقة الدفع {{walletName}} غير متاحة حاليًا لطلبك. لمواصلة عملية الشراء، اختر طريقة دفع أخرى."
+          }
+        },
+        "redirection_notice": "بعد النقر على \" {{buttonLabel}} \"، ستتم إعادة توجيهك إلى {{walletName}} لإكمال عملية الشراء بشكل آمن.",
+        "return_to_checkout": "أعود لإكمال الطلب"
+      },
+      "markets": {
+        "invalid_market_manager_error": "قم بمراجعة معلومات الاتصال الخاصة بك قبل إتمام عملية الدفع"
+      },
+      "store_credit_errors": {
+        "generic_error": "حدثت مشكلة في رصيد متجرك. حاول مرة أخرى أو أعد تحميل الصفحة."
+      },
+      "note": {
+        "length_exceeds_maximum": "يرجى تقليل حجم الملاحظة إلى 5000 حرف كحد أقصى."
+      },
+      "billing": {
+        "billing_address_title": "الفواتير ل"
       }
     }
   },
