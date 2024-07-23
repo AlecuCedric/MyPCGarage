@@ -204,12 +204,12 @@
       "scheme-339b068d-b964-4405-a6d8-2cd817bb1e38": {
         "settings": {
           "background": "#000000",
-          "background_gradient": "",
-          "text": "#000000",
-          "button": "#0e1b4d",
-          "button_label": "#eff0f5",
-          "secondary_button_label": "#0e1b4d",
-          "shadow": "#0e1b4d"
+          "background_gradient": "linear-gradient(136deg, rgba(4, 145, 239, 1) 13%, rgba(147, 18, 100, 1) 83%)",
+          "text": "#e32402",
+          "button": "#e32402",
+          "button_label": "#000000",
+          "secondary_button_label": "#e32402",
+          "shadow": "#000000"
         }
       }
     }
