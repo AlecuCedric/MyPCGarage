@@ -561,7 +561,61 @@
           "title": "رصيد {{amount_due}} مستحق {{due_at}}",
           "due_on_fulfillment_title": "رصيد {{amount_due}} مستحق في وقت الدفع"
         },
-        "eligible_customer_missing_notice": "مطلوب عميل مؤهل للحصول على رمز الخصم <strong style=\"text-transform:uppercase\">%{code}<\/strong>"
+        "eligible_customer_missing_notice": "مطلوب عميل مؤهل للحصول على رمز الخصم <strong style=\"text-transform:uppercase\">%{code}<\/strong>",
+        "title": "ملخص الطلب",
+        "order_name_label": "الأمر %{اسم}",
+        "shopping_cart_label": "سلة التسوق",
+        "discount_title": "تخفيض",
+        "discount_label": "الرقم التسلسلي للخصم",
+        "discount_placeholder": "الرقم التسلسلي للخصم",
+        "gift_card_title": "كرت هدية",
+        "gift_card_label": "كرت هدية",
+        "gift_card_placeholder": "كرت هدية",
+        "gift_card_and_discount_title": "رمز الخصم أو بطاقة الهدايا",
+        "gift_card_and_discount_label": "رمز الخصم أو بطاقة الهدايا",
+        "gift_card_and_discount_placeholder": "رمز الخصم أو بطاقة الهدايا",
+        "remove_gift_card_label": "قم بإزالة بطاقة الهدايا",
+        "remove_discount_label": "إزالة الخصم",
+        "free_shipping_discount_label": "ًالشحن مجانا",
+        "apply_discount_button_label": "يتقدم",
+        "applied_discount_message": "خصم %{amount} من السعر الإجمالي للطلب",
+        "discount_has_been_applied": "تم تطبيق الخصم",
+        "discount_has_been_removed": "تمت إزالة الخصم",
+        "gift_card_has_been_applied": "تم تطبيق بطاقة الهدايا",
+        "gift_card_has_been_removed": "تمت إزالة بطاقة الهدايا",
+        "discount_already_applied": "تم تطبيق خصم على هذا الطلب. لا يمكنك إضافة خصم آخر.",
+        "cart_does_not_meet_discount_requirements_notice": "رمز الخصم <strong style=\"text-transform:uppercase\">%{code}<\/strong> غير صالح للعناصر الموجودة في سلة التسوق",
+        "discount_requires_customer_notice": "أدخل معلومات الشحن لتطبيق رمز الخصم <strong style=\"text-transform:uppercase\">%{code}<\/strong>",
+        "customer_does_not_meet_discount_requirements_notice": "رمز الخصم <strong style=\"text-transform:uppercase\">%{code}<\/strong> غير متاح لك الآن",
+        "shipping_information_does_not_meet_discount_requirements_notice": "رمز الخصم <strong style=\"text-transform:uppercase\">%{code}<\/strong> غير متوفر لعنوان الشحن الخاص بك",
+        "customer_already_used_once_per_customer_discount_notice": "تم استخدام رمز الخصم <strong style=\"text-transform:uppercase\">%{code}<\/strong> بالفعل",
+        "subtotal_label": "المجموع الفرعي",
+        "shipping_label": "ينقل",
+        "pickup_label": "التقط من المتجر",
+        "no_pickup_location": "الاستلام غير متاح لهذا الطلب. اختر طريقة تسليم أخرى.",
+        "tip_label": "نصيحة",
+        "calculating_shipping": "يتم حسابه...",
+        "shipping_default_value": "تحسب في الخطوة التالية",
+        "shipping_pending_message": "لا يزال غير متوفر",
+        "shipping_policy_link": "تكاليف الشحن",
+        "taxes_label": "الضرائب",
+        "total_label": "المجموع",
+        "total_outstanding_label": "مبلغ الدفع",
+        "partial_total_label": "المجموع",
+        "free_total_label": "شحن مجاني",
+        "paid_label": "يدفع",
+        "payment_due_label": "تاريخ استحقاق السداد",
+        "vat_label_html": "بما في ذلك %{amount} من الضرائب",
+        "discount_and_gift_card_savings_notice": "بعد %{discount_amount} في الخصومات و%{gift_card_amount} في بطاقات الهدايا",
+        "discount_savings_notice": "بعد %{discount_amount} في الخصومات",
+        "gift_card_savings_notice": "بعد %{gift_card_amount} في بطاقات الهدايا",
+        "cost_table_title": "ملخص التكلفة",
+        "description_label": "وصف",
+        "price_label": "سعر",
+        "quantity_label": "كمية",
+        "product_change_label": "يعدل",
+        "product_image_label": "صورة المنتج",
+        "scroll_order_summary": "قم بالتمرير لمزيد من المقالات"
       },
       "payment": {
         "amazon_payments_label": "أمازون الدفع",
@@ -915,7 +969,77 @@
         "title": "ليس في المخزون",
         "items_unavailable_notice": "بعض العناصر لم تعد متوفرة.",
         "product_column_header": "منتجات",
-        "quantity_column_header": "كمية"
+        "quantity_column_header": "كمية",
+        "price_column_header": "سعر",
+        "status_column_header": "حالة",
+        "removed_from_cart_notice": "تمت إزالتها من سلة التسوق",
+        "sold_out_label": "نفذ",
+        "reduced_label": "مخفض",
+        "reduced_with_quantity_label": "لم يتبق سوى %{quantity_available}.",
+        "remove_from_cart_button_label": "إزالة من العربة",
+        "continue_shopping_button_label": "يستمر في التقدم",
+        "go_back_to_cart_button_label": "العودة إلى سلتي",
+        "remove": "يزيل",
+        "empty_cart_label": "سلتك فارغة",
+        "quantity_update": {
+          "page_title": "كميات التحديث",
+          "title": "كميات التحديث",
+          "description": "لقد تغيرت الكميات المتوفرة لهذه العناصر وتم تحديثها في سلة التسوق."
+        },
+        "unpurchasable_product": {
+          "title": "المنتج الذي لا يمكن شراؤه",
+          "header": "تمت إزالة بعض العناصر من سلة التسوق الخاصة بك",
+          "message": "هذه العناصر غير متوفرة لطلبات B2B.",
+          "status_column_header": "غير متوفره"
+        },
+        "unpurchasable_product_generic": {
+          "title": "المنتج الذي لا يمكن شراؤه",
+          "header": "تمت إزالة بعض العناصر من سلة التسوق الخاصة بك",
+          "message": "هذه العناصر غير متوفرة.",
+          "status_column_header": "غير متوفره"
+        },
+        "unshippable_product": {
+          "title": "لا توجد طريقة التسليم المتاحة",
+          "header": {
+            "one": "لا توجد طريقة تسليم متاحة لـ %{count} عنصر",
+            "other": "لا توجد طريقة تسليم متاحة لـ %{count} (of) من العناصر",
+            "few": "لا توجد طريقة تسليم متاحة لـ %{count} (of) من العناصر"
+          },
+          "message": {
+            "one": "ستتم إزالة هذا العنصر من سلة التسوق الخاصة بك لأنه لا توجد طرق شحن متاحة لعنوانك.",
+            "other": "ستتم إزالة هذه العناصر من سلة التسوق الخاصة بك لأنه لا توجد طرق شحن متاحة لعنوانك.",
+            "few": "ستتم إزالة هذه العناصر من سلة التسوق الخاصة بك لأنه لا توجد طرق شحن متاحة لعنوانك."
+          },
+          "status_column_header": "لا توجد طريقة التسليم"
+        },
+        "price_update": {
+          "title": "تحديث الأسعار",
+          "description": "لقد تغيرت أسعار هذه العناصر وتم تحديثها في سلة التسوق."
+        },
+        "return_to_store_label": "أعود إلى المتجر",
+        "item_label": {
+          "one": "{{count}} عنصر",
+          "other": "{{count}} عنصر",
+          "few": "{{count}} عنصر"
+        },
+        "continue_cta_label": "متابعة الخروج",
+        "out_of_stock": {
+          "description": "لم تعد هذه العناصر متوفرة وتمت إزالتها من سلة التسوق الخاصة بك.",
+          "items_unavailable": "بعض العناصر لم تعد متوفرة وتمت إزالتها من سلة التسوق."
+        },
+        "unfulfillable_product": {
+          "title": "التسليم غير متوفر",
+          "message": {
+            "one": "طريقة التسليم %{delivery_method} لم تعد متاحة لهذا العنصر.",
+            "other": "لم تعد طريقة التسليم %{delivery_method} متاحة لهذه العناصر.",
+            "few": "لم تعد طريقة التسليم %{delivery_method} متاحة لهذه العناصر."
+          },
+          "default_message": {
+            "one": "طريقة التسليم المختارة لم تعد متاحة لهذا العنصر.",
+            "other": "لم تعد طريقة التسليم المختارة متاحة لهذه العناصر.",
+            "few": "لم تعد طريقة التسليم المختارة متاحة لهذه العناصر."
+          }
+        }
       }
     }
   },
