@@ -845,7 +845,149 @@
         },
         "klarna_label": "كلارنا",
         "mor_disclaimer_html": "بالنقر أدناه وإكمال طلبك، فإنك توافق على شراء العنصر (العناصر) من Global-e كتاجر مسجل\n لهذه الصفقة وفقا <a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{mor_terms}\" href=\"%{terms_href}\">للشروط والأحكام<\/a>\n ومع <a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{privacy_policy}\" href=\"%{policy_href}\">سياسة الخصوصية<\/a> العالمية. العالمية الإلكترونية هي\n مزود خدمة التوصيل الدولي لـ %{shop_name}\n",
-        "purchase_options_card_update_agreement_label_html": "من خلال تحديث طريقة الدفع الخاصة بك، فإنك تسمح بالدفع لأي عمليات شراء متكررة أو مؤجلة وفقًا <a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{cancellation_policy}\" href=\"%{policy_href}\">لسياسة الإلغاء<\/a> الخاصة بهذا المتجر."
+        "purchase_options_card_update_agreement_label_html": "من خلال تحديث طريقة الدفع الخاصة بك، فإنك تسمح بالدفع لأي عمليات شراء متكررة أو مؤجلة وفقًا <a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{cancellation_policy}\" href=\"%{policy_href}\">لسياسة الإلغاء<\/a> الخاصة بهذا المتجر.",
+        "multibanco_label": "ماكينة الصراف الآلي",
+        "receiver_payment_experience_hint": "بعد تقديم الطلب، سوف تتلقى تفاصيل الدفع. قم بالدفع في Multibanco أو عبر الإنترنت خلال %{due_days} يوم على الأكثر.",
+        "pending_payment": {
+          "due_notice": "دفعتك البالغة %{amount_due} مستحقة في %{due_date}",
+          "multibanco": {
+            "instruction_html": "قم بالدفع في Multibanco أو عبر الإنترنت باستخدام التفاصيل أدناه. إذا كانت لديك أية أسئلة أو تريد تحديث تفاصيل الدفع الخاصة بك، %{contact_us}.",
+            "entity": "كيان",
+            "reference": "مرجع",
+            "amount": "المبلغ",
+            "find_nearest_atm": "ابحث عن أقرب جهاز صراف آلي",
+            "buyer_action_info": "يجب سداد مبلغ %{amount_due}."
+          }
+        },
+        "purchase_options_agreement_label": "عنصر واحد أو أكثر في سلة التسوق الخاصة بك هو عملية شراء مؤجلة أو متكررة. من خلال الاستمرار في الخروج، فإنك توافق على أن يتم تحصيل الرسوم من طريقة الدفع الخاصة بك تلقائيًا بالسعر والتكرار المحدد في هذه الصفحة حتى ينتهي اشتراكك أو تقوم بإلغائه. يجب أن تتوافق جميع عمليات الإلغاء مع %{cancellation_policy_label}.",
+        "update_payment_method": "قم بتحديث طريقة الدفع الخاصة بك",
+        "paypal_modal": {
+          "order_contains_subscriptions": "الاشتراك",
+          "order_contains_fixed_selling_plans": "قد لا يشمل الإجمالي الضريبة والشحن والضريبة المؤجلة وبعض الخصومات. استمر في الخروج لمعرفة المبلغ المستحق اليوم."
+        },
+        "purchase_options_agreement_label_html": "أدرك أن عنصرًا واحدًا أو أكثر في سلة التسوق الخاصة بي هو عملية شراء مؤجلة أو متكررة. من خلال الاستمرار، وأنا أتفق مع\n <a class=\"link--small\" data-modal=\"true\" data-title-text=\"%{subscription_policy}\" href=\"%{policy_href}\">سياسة الإلغاء<\/a>\n وأصرح لك بتحصيل رسوم طريقة الدفع الخاصة بي تلقائيًا بالأسعار والتكرارات والتواريخ المحددة حتى يتم استيفاء طلبي أو إلغاءه، إذا كان ذلك مسموحًا به.\n",
+        "payment_method_saved": "طريقة الدفع المحفوظة",
+        "card_vaulted_company_location": "تم حفظ البطاقة لهذا الموقع",
+        "order_covered_by_store_credit_notice": "يتم تغطية طلبك عن طريق رصيد المتجر.",
+        "order_covered_by_redeemables_notice": "طلبك مغطى.",
+        "store_credit": {
+          "label": "مخزن اعتمادات",
+          "apply_label": "تطبيق الائتمان المتجر",
+          "add_label": "إضافة رصيد المتجر",
+          "manage_label": "إدارة الائتمان المتجر",
+          "buying_gift_card": "لا يمكنك استخدام رصيد المتجر لشراء بطاقة هدايا",
+          "no_fixed_selling_plans": "لا يمكنك استخدام رصيد المتجر لخيارات الشراء المؤجلة"
+        },
+        "clear": "واضح",
+        "billing_must_match_shipping_notice": "يجب أن يتطابق عنوان إرسال الفواتير المرتبط بطريقة الدفع الخاصة بك مع عنوان الشحن.",
+        "same_billing_address_checkbox_label": "استخدم عنوان الشحن كعنوان إرسال الفواتير الخاص بك",
+        "location_billing_address_label": "عنوان إرسال الفواتير للموقع",
+        "fact_billing_address_label": "عنوان وصول الفواتير",
+        "location_shipping_address_label": "عنوان الشحن للموقع",
+        "no_working_method_error": "لا يمكن لهذا المتجر قبول المدفوعات في الوقت الحالي. قم بتحديث الصفحة أو العودة لاحقًا.",
+        "brand_not_available": "هذا المتجر لا يدعم {{brand}} . استخدم بطاقة أخرى للدفع.",
+        "shipping_rate_updated": "تم تحديث طرق التسليم المتاحة. قم بتأكيد اختيارك قبل إتمام عملية الشراء.",
+        "billing_address_invalid_phone": "للمتابعة، قم بتحديث رقم الهاتف الموجود في عنوان إرسال الفواتير الخاص بك لـ {{label}} {{last_digits}} .",
+        "billing_address_invalid_phone_no_card": "للمتابعة، قم بتحديث رقم الهاتف الموجود في عنوان إرسال الفواتير الخاص بك.",
+        "preview_not_available": {
+          "title": "المعاينة غير متاحة",
+          "content": "لا تقلق، فطريقة الدفع السريع هذه تناسب عملائك.",
+          "button": "ك"
+        },
+        "card_fields": {
+          "errors": {
+            "required": {
+              "issue_date": "الرجاء إدخال تاريخ إصدار صالح",
+              "issue_number": "الرجاء إدخال رقم إصدار صالح"
+            },
+            "invalid": {
+              "verification_value": "أدخل رمز CVV أو رمز الأمان صالحًا"
+            }
+          }
+        },
+        "simulated_checkout": "سوف تكون المعاينة متاحة قريبا",
+        "vaulting_agreement_label": "أريد حفظ معلومات الدفع لـ %{company} لإجراء عملية دفع أسرع.",
+        "business_customer_vaulting_payment_label": "احفظ هذه البطاقة عند الدفع وقم بتفويض %{company} لتحصيل الرسوم منها مقابل عمليات الشراء المستقبلية في هذا الموقع. يمكن لجميع جهات الاتصال المخصصة لهذا الموقع استخدام البطاقة.",
+        "purchase_options_and_vaulting_agreement_label": "هناك عنصر واحد أو أكثر في سلة التسوق الخاصة بك عبارة عن عملية شراء مؤجلة أو شراء اشتراك. من خلال متابعة الدفع، فإنك توافق على أنه سيتم تحصيل الرسوم من طريقة الدفع الخاصة بك تلقائيًا بالسعر والتكرار المحدد في هذه الصفحة حتى ينتهي اشتراكك أو تقوم بإلغائه. يجب أن تتوافق جميع عمليات الإلغاء مع %{cancellation_policy_label}.",
+        "purchase_options_cancellation_policy_label": "سياسة الإلغاء",
+        "use_different_credit_card_label": "استخدم بطاقة أخرى",
+        "saved_credit_card": "تم حفظ بطاقتك الائتمانية",
+        "saved_credit_card_info": "الأرقام الأربعة الأخيرة",
+        "saved_credit_cards_modal": {
+          "view_all_label": "شاهد جميع البطاقات المحفوظة",
+          "done": "مستعد",
+          "cancel": "يلغي"
+        },
+        "expired_cards_info": {
+          "one": "هناك %{count} من البطاقات منتهية الصلاحية يمكنك عرضها وتعديلها في حسابك.",
+          "other": "هناك %{count} من البطاقات منتهية الصلاحية يمكنك عرضها وتعديلها في حسابك.",
+          "few": "هناك %{count} من البطاقات منتهية الصلاحية يمكنك عرضها وتعديلها في حسابك."
+        },
+        "local_payment_method_receiver_notice": "بعد تقديم الطلب، سوف تتلقى تفاصيل الدفع. ادفع من ماكينة الصراف الآلي أو عبر الإنترنت خلال {{dueDays}} (من) يوم على الأكثر.",
+        "order_edit_banner_title": "مطلوب دفع {{amount_owed}}",
+        "order_edit_banner_subtitle": "تم تحديث طلبك، {{order_number}} . راجع هذه التغييرات، ثم ادفع لتأكيد طلبك.",
+        "order_edit_banner_single_item_added": "تمت الإضافة",
+        "order_edit_banner_multiple_items_added": "تمت الإضافة: {{amount}}",
+        "order_edit_banner_single_item_removed": "مستبعد",
+        "order_edit_banner_multiple_items_removed": "تمت الإزالة: {{amount}}",
+        "gift_card_wrapper": {
+          "heading": "كرت هدية",
+          "apply_gift_card_label": "تطبيق بطاقة هدية",
+          "payment_tag": "كرت هدية",
+          "apply_another_gift_card_label": "تطبيق بطاقة هدية أخرى",
+          "gift_card_label": "%{identifier} لبطاقة الهدايا",
+          "add_label": "أضف بطاقة هدية",
+          "manage_label": "إدارة بطاقات الهدايا"
+        },
+        "custom_onsite_payment_method_modal": {
+          "title": "تأكيد الدفع الشخصي على الفور"
+        },
+        "markets_pro_disclaimer_label": "بالنقر أدناه وإكمال طلبك، فإنك توافق على شراء العنصر (العناصر) من Global-e، باعتبارها التاجر المسجل لهذه المعاملة، وفقًا لسياسة %{markets_pro_terms} و%{privacy_policy الخاصة بشركة Global-e. Global-e هي شركة دولية تقدم خدمات تلبية الطلبات لـ %{shop_name}",
+        "markets_pro_disclaimer_terms_and_conditions": "الأحكام والشروط",
+        "markets_pro_disclaimer_privacy_policy": "سياسة الخصوصية",
+        "markets_pro_disclaimer_terms_and_conditions_title": "شروط وأحكام التاجر المسجل",
+        "markets_pro_disclaimer_privacy_policy_title": "سياسة خصوصية التاجر المسجل",
+        "purchase_order_number": {
+          "title": "رقم طلب الشراء",
+          "label": "رقم أمر الشراء (اختياري)"
+        },
+        "alternative_payment_currency_total_notice": "ملاحظة: سيتم تحصيل الرسوم من طريقة الدفع الخاصة بك بنسبة %{amount_due}.",
+        "waiting_on_taxes_message": "إذا لم يتم احتساب الرسوم الخاصة بك في الثواني القليلة القادمة، يرجى تحديث الصفحة.",
+        "waiting_on_taxes_notice": "يتم احتساب الضرائب",
+        "order_edit_banner_single_item_returned": "عاد",
+        "order_edit_banner_multiple_items_returned": "المرتجعات: {{amount}}",
+        "shop_pay_installments_label": "معدل متجر الدفع",
+        "add_credit_card_modal": {
+          "title": "أضف البطاقة",
+          "cancel": "يلغي",
+          "save": "يحفظ"
+        },
+        "delete_credit_card_modal": {
+          "title": "احذف البطاقة",
+          "confirmation": "هل أنت متأكد أنك تريد حذف {{brandName}} الذي ينتهي بـ {{lastDigits}} ؟",
+          "cancel": "يلغي",
+          "delete": "يزيل"
+        },
+        "order_edit_banner_items_added": {
+          "one": "تمت الإضافة",
+          "other": "تمت الإضافة: %{count}",
+          "few": "تمت الإضافة: %{count}"
+        },
+        "order_edit_banner_items_removed": {
+          "in_full": "إزالة",
+          "with_quantities": "تمت الإزالة: {{delta}} من {{quantity}}"
+        },
+        "order_edit_banner_items_returned": {
+          "in_full": "المرتجعات: {{quantity}}",
+          "with_quantities": "تم إرجاع: {{delta}} من {{quantity}}"
+        },
+        "saved_credit_card_actions": {
+          "edit": "يحرر",
+          "delete": "يزيل"
+        },
+        "edit_credit_card_modal": {
+          "title": "تحرير البطاقة"
+        }
       },
       "thank_you": {
         "ready_for_pickup_title": "طلبك جاهز للاستلام",
