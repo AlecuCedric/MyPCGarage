@@ -1357,6 +1357,131 @@
         "cart_updated_based_on_country": "تم تحديث سلة التسوق الخاصة بك بناءً على بلد الشحن الخاص بك.",
         "cart_and_currency_updated_based_on_country": "يتم تحديث سلة التسوق والعملة بناءً على بلد الشحن."
       }
+    },
+    "notices": {
+      "tags": {
+        "remove_articles": "قم بتوسيع البحث إلى العناصر التي لم يتم وضع علامة عليها %{tag}",
+        "remove_products": "إزالة العلامة %{tag}"
+      },
+      "line_item": {
+        "item_status": {
+          "add_variant": "تمت إضافة %{دلتا}",
+          "increment_item": "تمت إضافة %{دلتا}",
+          "decrement_item": "تمت إزالة %{delta} من %{total}",
+          "decrement_fulfilled_line_item": "تم إرجاع %{delta} من %{total}.",
+          "decrement_return_line_item": "تمت إزالة %{delta} من العودة"
+        }
+      }
+    },
+    "email_marketing": {
+      "subscribed": {
+        "confirmation": "شكرا لاشتراكك في قائمتنا البريدية.",
+        "disclaimer": "يمكنك إلغاء الاشتراك في أي وقت.",
+        "unsubscribe": "إلغاء الاشتراك"
+      },
+      "unsubscribed": {
+        "confirmation": "لقد قمت بإلغاء الاشتراك من القائمة البريدية لدينا.",
+        "disclaimer": "لن تتلقى أي تحديثات تسويقية أخرى منا. يمكنك الاشتراك مرة أخرى في أي وقت",
+        "preview": "قم بمعاينة ما سيراه العملاء عند إلغاء الاشتراك."
+      },
+      "open_tracking": {
+        "opt_in": {
+          "opted_in_html": "<b>لقد قمت بتمكين تتبع فتح البريد الإلكتروني.<\/b>",
+          "visibility": "سيتم الإبلاغ عن معدلات فتح البريد الإلكتروني بشكل مجهول. سنرى فقط ما إذا كنت قد فتحت بريدًا إلكترونيًا، كجزء من معدل فتح البريد الإلكتروني المجمع.",
+          "opt_out_html": "يمكنك <a style=\"text-decoration:underline;\" href=\"%{link}\">إلغاء الاشتراك<\/a> في تتبع فتح البريد الإلكتروني إذا كنت لا ترغب في مشاركة هذه المعلومات.",
+          "preview_bar": "قم بمعاينة ما سيراه العملاء عندما يختارون تمكين تتبع البريد الإلكتروني المفتوح."
+        },
+        "opt_out": {
+          "opted_out_html": "<b>لقد قمت بإلغاء الاشتراك في تتبع عمليات فتح البريد الإلكتروني.<\/b>",
+          "visibility": "لن نرى ما إذا كنت قد فتحت رسائل البريد الإلكتروني الخاصة بنا.",
+          "opt_in_html": "اختر <a style=\"text-decoration:underline;\" href=\"%{link}\">تمكين<\/a> تتبع فتح البريد الإلكتروني.",
+          "preview_bar": "قم بمعاينة ما سيراه العملاء عندما يختارون إلغاء الاشتراك في التتبع المفتوح للبريد الإلكتروني."
+        },
+        "no_longer_track": {
+          "status_html": "<b>لم نعد نتتبع أي بريد إلكتروني مفتوح.<\/b>",
+          "privacy_policy": "بعد إرسال هذا البريد الإلكتروني، قمنا بتحديث سياسة الخصوصية الخاصة بنا ولم يعد المسار مفتوحًا."
+        },
+        "track": {
+          "status_html": "<b>تم الإبلاغ عن تتبع فتح البريد الإلكتروني.<\/b>",
+          "visibility": "سنرى فقط ما إذا كنت قد فتحت البريد الإلكتروني، ضمن معدل فتح البريد الإلكتروني الإجمالي."
+        },
+        "updated_policy": {
+          "status_html": "<b>تم الإبلاغ عن تتبع فتح البريد الإلكتروني.<\/b>",
+          "visibility": "لقد قمنا بتحديث سياستنا ونقوم الآن بتتبع عمليات فتح البريد الإلكتروني. سيتم الإبلاغ عن معدلات فتح البريد الإلكتروني بشكل مجهول. سنرى فقط ما إذا كنت قد فتحت بريدًا إلكترونيًا أم لا، وذلك كجزء من المعدل الإجمالي لفتح بريدك الإلكتروني.",
+          "opt_out_html": "إذا كنت لا ترغب في مشاركة هذه المعلومات، يمكنك <a style=\"text-decoration:underline;\" href=\"%{link}\">إلغاء الاشتراك.<\/a>"
+        }
+      }
+    },
+    "page_titles": {
+      "products": "منتجات",
+      "shopping_cart": "سلة التسوق الخاصة بك",
+      "account": "حساب",
+      "create_account": "إنشاء حساب",
+      "reset_account": "إعادة ضبط حسابك",
+      "addresses": "عناوين",
+      "order": "الأمر %{اسم}",
+      "search": "بحث عن",
+      "collections": "المجموعات",
+      "not_found": "404 غير موجود",
+      "challenge": "تحدي",
+      "checkpoint": "نقطة التحقق",
+      "search_results": {
+        "one": "البحث: تم العثور على %{count} نتيجة لـ \"%{terms}\"",
+        "other": "البحث: تم العثور على %{count} من النتائج عن \"%{terms}\"",
+        "few": "البحث: تم العثور على %{count} من النتائج عن \"%{terms}\""
+      },
+      "blog_or_article_with_error": "خطأ – %{title}"
+    },
+    "cart": {
+      "discounts_with_count": "تم تطبيق %{count} من الخصومات"
+    },
+    "challenge": {
+      "message": "للمتابعة، أثبت أنك لست روبوتًا.",
+      "error": "إجابتك غير صحيحة، حاول مرة أخرى.",
+      "submit_button_text": "يرسل"
+    },
+    "checkpoint": {
+      "message": "حل كلمة التحقق للمتابعة",
+      "error": "فشل التحقق من صحة كلمة التحقق",
+      "submit_button_text": "يرسل"
+    },
+    "store_availability": {
+      "pick_up_time": {
+        "one_hour": "جاهزة عادة في غضون ساعة",
+        "two_hours": "جاهز عادة خلال ساعتين",
+        "four_hours": "عادة ما تكون جاهزة خلال 4 ساعات",
+        "twenty_four_hours": "عادة ما تكون جاهزة خلال 24 ساعة",
+        "two_to_four_days": "عادة ما تكون جاهزة خلال 2-4 أيام",
+        "five_or_more_days": "عادة ما تكون جاهزة في أكثر من 5 أيام",
+        "zero_to_two_hours": "جاهز عادة خلال ساعتين",
+        "two_to_four_hours": "عادة ما تكون جاهزة خلال 4 ساعات",
+        "immediately": "على استعداد لالتقاط الآن",
+        "next_day": "جاهز للاستلام في اليوم التالي"
+      }
+    },
+    "filters": {
+      "availability": {
+        "value": {
+          "in_stock": "في الأوراق المالية",
+          "out_of_stock": "نفذ"
+        }
+      },
+      "boolean": {
+        "true_label": "نعم",
+        "false_label": "لا"
+      }
+    },
+    "search": {
+      "sorting": {
+        "relevance": "ملاءمة",
+        "price_ascending": "السعر من الأقل إلى الأعلى",
+        "price_descending": "السعر من الأعلى إلى الأقل"
+      }
+    },
+    "forms_captcha": {
+      "badge_text": "محمية بواسطة hCaptcha",
+      "terms_link_text": "شروط",
+      "privacy_link_text": "خصوصية"
     }
   },
   "customer_accounts": {
@@ -1962,7 +2087,8 @@
         "save": "يحفظ",
         "save_accessibility_label": "احفظ الملف",
         "title": "حساب تعريفي",
-        "no_name_provided_accessibility_label": "لم تتم إضافة أي اسم"
+        "no_name_provided_accessibility_label": "لم تتم إضافة أي اسم",
+        "cancel": "يلغي"
       },
       "profile_update_confirmation_message": "تحديث الملف الشخصي",
       "title": "حساب تعريفي",
@@ -1973,7 +2099,183 @@
           "loading_accessibility_label": "تحميل الناس"
         }
       },
-      "add_button": "يضيف"
+      "add_button": "يضيف",
+      "loading_accessibility_message": "جارٍ تحميل معلومات الحساب",
+      "loading_finished_accessibility_message": "تم تحميل معلومات الحساب"
+    },
+    "B2B": {
+      "locations": {
+        "tax_exemptions": "الإعفاءات الضريبية",
+        "multiple_tax_exemptions": "المزيد {{taxExemptionsCount}}",
+        "multiple_tax_exemptions_and": "و",
+        "tax_exemptions_modal_close": "يشنق",
+        "taxes_none": "حر",
+        "tax_exemption_not_applicable": "غير قابل للتطبيق",
+        "tax_exemptions_modal_button_accessibility_label": "اطلع على جميع المناقشات الإعفاءات الضريبية",
+        "pagination": {
+          "load_more": "تحميل المزيد",
+          "load_more_accessibility_label": "تحميل المزيد من المواقع"
+        },
+        "own_role_contact_name": "أنت",
+        "staff_and_permissions_title": "الموظفين والأذونات",
+        "location_picker_accessibility_label": "اسم الموقع: {{locationName}}",
+        "deposit_percentage": "{{percentage}} إيداع"
+      },
+      "location_selection": {
+        "description": "إذا كان لديك بالفعل عناصر في سلة التسوق الخاصة بك، فإن تغيير موقعك قد يؤثر على أسعار وكميات العناصر في سلة التسوق الخاصة بك.",
+        "list_accessibility_label": "قائمة المواقع",
+        "list_item_without_address_accessibility_label": "{{name}} : لا يوجد عنوان",
+        "list_loading_accessibility_message": "جارٍ تحميل قائمة المواقع",
+        "list_loading_address_accessibility_message": "جارٍ تحميل العناوين لـ {{locationName}}",
+        "list_loading_finished_accessibility_message": "تم تحميل قائمة المواقع",
+        "loading_store_accessibility_message": "تم الوصول إلى المتجر",
+        "selection_cancel_button": "يلغي",
+        "selection_confirmation_button": "اختر الموقع",
+        "title": "ما هو الموقع الذي تشتري له؟",
+        "continue_to_store": "الاستمرار في المتجر",
+        "no_location_title": "الطلبات الشخصية فقط",
+        "no_location_description": "لم يعد مسموحًا لك بتقديم طلبات لشركة {{company}} . لا يزال بإمكانك تقديم الطلبات الشخصية.",
+        "no_locations_found": "لم يتم العثور على موقع",
+        "search": "ابحث عن موقع",
+        "clear_search": "مسح البحث",
+        "try_new_search": "حاول إجراء بحث جديد",
+        "search_location_title": "اختر موقعا"
+      },
+      "addresses": {
+        "add_billing_address_button": "أضف عنوان إرسال الفواتير",
+        "add_billing_address_section_accessibility_label": "أضف عنوان إرسال الفواتير",
+        "add_shipping_address_button": "أضف عنوان الشحن",
+        "add_shipping_address_section_accessibility_label": "أضف عنوان الشحن",
+        "billing_address_card_title": "عنوان وصول الفواتير",
+        "cancel_adding_billing_address_accessibility_label": "إلغاء إضافة عنوان إرسال الفواتير",
+        "cancel_adding_shipping_address_accessibility_label": "إلغاء إضافة عنوان الشحن",
+        "save_new_billing_address_accessibility_label": "احفظ عنوان إرسال الفواتير",
+        "save_new_shipping_address_accessibility_label": "احفظ عنوان الشحن",
+        "shipping_address_card_title": "عنوان الشحن"
+      },
+      "orders": {
+        "draft_order_list": {
+          "hide_all": "إخفاء كل شيء",
+          "show_all": "عرض الكل",
+          "hide_all_accessibility_label": "إخفاء جميع الطلبات قيد المراجعة",
+          "show_all_accessibility_label": "يظهر جميع الطلبات قيد المراجعة",
+          "title": "في الانتظار",
+          "pagination": {
+            "nav_accessibility_label": "أزرار التنقل للطلبات قيد المراجعة"
+          },
+          "show_all_orders_in_review": "يظهر جميع الطلبات قيد المراجعة",
+          "show_less_orders_in_review": "عرض عدد أقل من الطلبات قيد المراجعة",
+          "pending_tab_accessibility_label": {
+            "no_pending_orders": "ليس لديك أي أوامر معلقة",
+            "pending_orders": {
+              "one": "لديك {{count}} من الطلبات المعلقة",
+              "other": "لديك {{count}} (من) الطلبات المعلقة",
+              "few": "لديك {{count}} (من) الطلبات المعلقة"
+            },
+            "more_than_pagination_length": "لديك أكثر من {{count}} (من) الطلبات المعلقة"
+          },
+          "pending_orders_count_more_than_pagination_length": "أكثر من {{count}}"
+        },
+        "order_list_column_headers_location": "موقع",
+        "removed_company_contact_tooltip": "تمت إزالته من الشركة"
+      },
+      "draft_order_details": {
+        "draft_order_subtitle": "تاريخ التأكيد: {{date}} ، للطلب {{draftOrderName}}",
+        "loading": "جارٍ تحميل تفاصيل الطلب",
+        "loading_finished_accessibility_message": "تم تحميل تفاصيل الطلب",
+        "payment_status": {
+          "draft": {
+            "description": "يتم تحديد تفاصيل الدفع في وقت تأكيد الطلب.",
+            "title": "الدفع لم يحين موعده بعد",
+            "in_review": {
+              "description": "يتم تحديد تفاصيل الدفع في وقت تأكيد الطلب.",
+              "title": "الدفع لم يحين موعده بعد"
+            },
+            "submitted": {
+              "description": "أرسل الدفع لتأكيد هذا الطلب.",
+              "title": "ادفع للتأكيد"
+            }
+          },
+          "paid": {
+            "description": "يتم دفع طلبك بالكامل.",
+            "title": "يدفع",
+            "title_with_date": "تاريخ الدفع: {{date}}"
+          },
+          "pay_now": "ادفع الآن",
+          "title": "حالة السداد",
+          "pending": {
+            "banner_overdue": {
+              "one": "تأخر دفع طلبك {{count}} يومًا",
+              "other": "لقد تأخر سداد طلبك عن {{count}} يومًا",
+              "few": "لقد تأخر سداد طلبك عن {{count}} يومًا"
+            },
+            "banner_due": {
+              "one": "الدفعة مستحقة خلال {{count}} من الأيام",
+              "other": "الدفعة مستحقة خلال {{count}} من الأيام",
+              "few": "الدفعة مستحقة خلال {{count}} من الأيام"
+            },
+            "banner_due_today": "الدفع الخاص بك يستحق اليوم",
+            "title": "تاريخ استحقاق السداد",
+            "title_with_date": "تاريخ استحقاق الدفع: {{date}}",
+            "description_overdue": "الدفع الخاص بك متأخر.",
+            "description_partially_paid": "تم دفع ثمن هذا الطلب جزئيًا. لديك رصيد متميز.",
+            "description_authorized": "سيتم تحصيل الرسوم من طريقة الدفع الخاصة بك في تاريخ الاستحقاق أو يمكنك الدفع الآن.",
+            "title_due_on_receipt": "الدفع لم يحين موعده بعد",
+            "description_due_on_receipt": "سوف تتلقى فاتورة عندما يحين موعد الدفع.",
+            "title_due_on_fulfillment": "الدفع مستحق في وقت الدفع",
+            "description_due_on_fulfillment": "يكون الدفع مستحقًا بعد استيفاء جميع العناصر الموجودة في هذا الطلب.",
+            "description_waiting_for_manual_payment": "يحتوي هذا الطلب على دفعة معلقة. سيتم تحديث الرصيد عند استلام الدفع.",
+            "description_due_on_receipt_partially_paid": "تم دفع ثمن هذا الطلب جزئيًا. لديك رصيد متميز. سوف تتلقى فاتورة عندما يحين موعد الدفع.",
+            "description_due_on_fulfillment_partially_paid": "تم دفع ثمن هذا الطلب جزئيًا. لديك رصيد متميز. يكون الدفع مستحقًا بعد استيفاء جميع العناصر الموجودة في هذا الطلب."
+          },
+          "refund": {
+            "title": "ردها",
+            "title_with_date": "تاريخ رد الأموال: {{date}}",
+            "description_full_refund": "لقد تلقيت استردادًا كاملاً لهذا الطلب.",
+            "description_single_refund": "لقد تلقيت استردادًا جزئيًا لهذا الطلب.",
+            "description_multiple_refunds": "لقد تلقيت مبالغ مستردة جزئيًا لهذا الطلب."
+          },
+          "canceled": {
+            "title": "تم إلغاء الدفع",
+            "description": "لم يتم تحصيل أي رسوم منك."
+          },
+          "pay_now_accessibility_label": "ادفع الآن مقابل الطلب {{orderName}}"
+        },
+        "subtitle": "تم الإرسال إلى {{date}}",
+        "title": "الأمر {{name}}"
+      }
+    },
+    "navigation_and_structure": {
+      "account_menu": {
+        "hide_accessibility_label": "إخفاء قائمة الحساب",
+        "label": "حساب",
+        "show_accessibility_label": "إظهار قائمة الحساب",
+        "nav_accessibility_label": "التنقل في الحساب",
+        "open_menu_accessibility_label": "فتح حساب الملاحة",
+        "close_menu_accessibility_label": "إغلاق تصفح الحساب",
+        "loading_message": "جارٍ تحميل التنقل في الحساب"
+      },
+      "action_menu_accessibility_label": "المزيد من الإجراءات",
+      "close_menu_accessibility_label": "إغلاق التنقل الرئيسي",
+      "contact_email_subject": "الاتصال من المتجر الإلكتروني {{shopName}}",
+      "contact_link": "معلومات الاتصال",
+      "delete_confirmation": {
+        "cancel": "يلغي",
+        "delete": "يزيل"
+      },
+      "dismiss_toast": "يشنق",
+      "document_title": "{{sectionName}} - {{shopName}} - الحساب",
+      "go_to_store_link": "إذهب إلى المحل",
+      "loading_message": "تحميل",
+      "log_out_link": "خروج",
+      "logout_overlay_label": "نحن نقطع اتصالك...",
+      "nav_label_accessibility_label": "الملاحة الرئيسية",
+      "navigation_accessibility_message": "لقد انتقلت إلى {{sectionName}}",
+      "open_menu_accessibility_label": "افتح التنقل الرئيسي",
+      "orders_link_label": "طلبات",
+      "shop_logo_accessibility_label": "شعار لـ {{shopName}}",
+      "subscriptions_link_label": "الاشتراكات",
+      "settings_link": "إعدادات"
     }
   },
   "customer": {
