@@ -53,6 +53,9 @@
         "slide-0",
         "slide_DVdEda"
       ],
+      "custom_css": [
+        ".slideshow_controls {background-color: black;}"
+      ],
       "settings": {
         "layout": "full_bleed",
         "slide_height": "adapt_image",
