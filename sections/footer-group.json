@@ -39,7 +39,7 @@
         "email-form"
       ],
       "settings": {
-        "color_scheme": "scheme-339b068d-b964-4405-a6d8-2cd817bb1e38",
+        "color_scheme": "scheme-2414b71f-532f-4414-9356-b85ab2aac563",
         "full_width": true,
         "padding_top": 28,
         "padding_bottom": 0
@@ -48,7 +48,7 @@
     "footer": {
       "type": "footer",
       "settings": {
-        "color_scheme": "scheme-339b068d-b964-4405-a6d8-2cd817bb1e38",
+        "color_scheme": "scheme-2414b71f-532f-4414-9356-b85ab2aac563",
         "newsletter_enable": false,
         "newsletter_heading": "Subscribe to our emails",
         "enable_follow_on_shop": true,
