@@ -20,10 +20,18 @@
             "text": "Welcome to our store",
             "link": ""
           }
+        },
+        "announcement_yLEY47": {
+          "type": "announcement",
+          "settings": {
+            "text": "PCGarage Summer Sale 2024",
+            "link": ""
+          }
         }
       },
       "block_order": [
-        "announcement-bar-0"
+        "announcement-bar-0",
+        "announcement_yLEY47"
       ],
       "settings": {
         "color_scheme": "scheme-2414b71f-532f-4414-9356-b85ab2aac563",
