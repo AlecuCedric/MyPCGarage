@@ -881,6 +881,9 @@
       },
       "month": {
         "few": "months"
+      },
+      "mapClusterTitle": {
+        "few": "Cluster consisting of {{number}} markers"
       }
     },
     "date": {
